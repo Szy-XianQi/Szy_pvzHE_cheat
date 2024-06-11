@@ -1,0 +1,130 @@
+﻿#ifndef WIDGET_H
+#define WIDGET_H
+
+#include <QWidget>
+#include<thread>
+#include<windows.h>
+#include <tlhelp32.h>
+#include <Psapi.h>
+#include <QDesktopServices>
+#include <QUrl>
+QT_BEGIN_NAMESPACE
+namespace Ui {
+class Widget;
+}
+QT_END_NAMESPACE
+
+class Widget : public QWidget
+{
+    Q_OBJECT
+
+public:
+    Widget(QWidget *parent = nullptr);
+    ~Widget();
+    void SetText(QString str);
+    DWORD Szy_GetProcessIDW(const wchar_t* ProcessName);
+    void setGameProcessID(DWORD ProcessID);
+    DWORD getGameProcessID();
+    HMODULE Szy_GetModuleHandleW(HANDLE ProcessHandle, const wchar_t* ModuleName);
+    void init();
+    bool getFirst();
+    void setFirst(bool toFitst);
+private slots:
+    void on_checkBox_stateChanged(int arg1);
+
+    void on_checkBox_2_stateChanged(int arg1);
+
+    void on_checkBox_3_stateChanged(int arg1);
+
+    void on_checkBox_4_stateChanged(int arg1);
+
+    void on_checkBox_5_stateChanged(int arg1);
+
+    void on_checkBox_6_stateChanged(int arg1);
+
+    void on_checkBox_7_stateChanged(int arg1);
+
+    void on_checkBox_8_stateChanged(int arg1);
+
+    void on_checkBox_9_stateChanged(int arg1);
+
+    void on_pushButton_clicked();
+
+    void on_pushButton_2_clicked();
+
+    void on_pushButton_3_clicked();
+
+    void on_checkBox_10_stateChanged(int arg1);
+
+    void on_pushButton_4_clicked();
+
+    void on_checkBox_11_stateChanged(int arg1);
+
+    void on_checkBox_12_stateChanged(int arg1);
+
+    void on_checkBox_13_stateChanged(int arg1);
+
+    void on_checkBox_14_stateChanged(int arg1);
+
+    void on_pushButton_5_clicked();
+
+    void on_checkBox_15_stateChanged(int arg1);
+
+    void on_checkBox_16_stateChanged(int arg1);
+
+    void on_checkBox_17_stateChanged(int arg1);
+
+    void on_checkBox_18_stateChanged(int arg1);
+
+    void on_checkBox_19_stateChanged(int arg1);
+
+    void on_checkBox_20_stateChanged(int arg1);
+
+    void on_pushButton_6_clicked();
+
+    void on_pushButton_8_clicked();
+
+    void on_radioButton_clicked();
+
+    void on_radioButton_2_clicked();
+
+    void on_radioButton_3_clicked();
+
+    void on_pushButton_9_clicked();
+
+    void on_pushButton_10_clicked();
+
+
+
+    void on_radioButton_16_clicked();
+
+    void on_radioButton_18_clicked();
+
+    void on_radioButton_17_clicked();
+
+    void on_radioButton_20_clicked();
+
+    void on_radioButton_21_clicked();
+
+    void on_radioButton_22_clicked();
+
+    void on_radioButton_19_clicked();
+
+    void on_radioButton_23_clicked();
+
+    void on_checkBox_21_stateChanged(int arg1);
+
+    void on_checkBox_22_stateChanged(int arg1);
+
+    void on_label_4_linkActivated(const QString &link);
+
+private:
+    Ui::Widget *ui;
+    bool wxyg{false};
+    bool first{false};
+    bool wxxk{false};
+    HANDLE  GameProcessHandle{0};
+    DWORD  GameProcessID{0};
+    HMODULE  GameHandle{0};
+};
+#endif // WIDGET_H
