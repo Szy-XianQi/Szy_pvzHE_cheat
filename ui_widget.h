@@ -14,6 +14,7 @@
 #include <QtWidgets/QCheckBox>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QLabel>
+#include <QtWidgets/QLineEdit>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QRadioButton>
 #include <QtWidgets/QTabWidget>
@@ -42,6 +43,16 @@ public:
     QRadioButton *radioButton;
     QRadioButton *radioButton_3;
     QRadioButton *radioButton_2;
+    QGroupBox *groupBox_3;
+    QLabel *label_5;
+    QLineEdit *lineEdit;
+    QPushButton *pushButton_7;
+    QLineEdit *lineEdit_2;
+    QPushButton *pushButton_11;
+    QLabel *label_6;
+    QLineEdit *lineEdit_3;
+    QPushButton *pushButton_12;
+    QLabel *label_7;
     QWidget *tab_4;
     QCheckBox *checkBox_2;
     QCheckBox *checkBox_3;
@@ -115,15 +126,15 @@ public:
         checkBox_8->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         pushButton_5 = new QPushButton(tab_3);
         pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-        pushButton_5->setGeometry(QRect(100, 368, 220, 51));
+        pushButton_5->setGeometry(QRect(30, 368, 180, 51));
         pushButton_5->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         pushButton_6 = new QPushButton(tab_3);
         pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
-        pushButton_6->setGeometry(QRect(340, 310, 220, 51));
+        pushButton_6->setGeometry(QRect(220, 310, 180, 51));
         pushButton_6->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         pushButton_8 = new QPushButton(tab_3);
         pushButton_8->setObjectName(QString::fromUtf8("pushButton_8"));
-        pushButton_8->setGeometry(QRect(100, 310, 220, 51));
+        pushButton_8->setGeometry(QRect(30, 310, 180, 51));
         pushButton_8->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         checkBox = new QCheckBox(tab_3);
         checkBox->setObjectName(QString::fromUtf8("checkBox"));
@@ -143,7 +154,7 @@ public:
         checkBox_12->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         pushButton = new QPushButton(tab_3);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(340, 368, 220, 51));
+        pushButton->setGeometry(QRect(220, 368, 180, 51));
         pushButton->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         checkBox_21 = new QCheckBox(tab_3);
         checkBox_21->setObjectName(QString::fromUtf8("checkBox_21"));
@@ -180,6 +191,46 @@ public:
         radioButton_2->setLayoutDirection(Qt::LeftToRight);
         radioButton_2->setStyleSheet(QString::fromUtf8("font: 14pt \"Microsoft YaHei UI\";"));
         radioButton_2->setChecked(false);
+        groupBox_3 = new QGroupBox(tab_3);
+        groupBox_3->setObjectName(QString::fromUtf8("groupBox_3"));
+        groupBox_3->setGeometry(QRect(410, 274, 201, 151));
+        groupBox_3->setStyleSheet(QString::fromUtf8("font: 10pt \"Microsoft YaHei UI\";"));
+        label_5 = new QLabel(groupBox_3);
+        label_5->setObjectName(QString::fromUtf8("label_5"));
+        label_5->setGeometry(QRect(9, 30, 61, 31));
+        label_5->setStyleSheet(QString::fromUtf8("font: 14pt \"Microsoft YaHei UI\";"));
+        lineEdit = new QLineEdit(groupBox_3);
+        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
+        lineEdit->setGeometry(QRect(70, 30, 70, 31));
+        lineEdit->setStyleSheet(QString::fromUtf8("font: 12pt \"Microsoft YaHei UI\";"));
+        pushButton_7 = new QPushButton(groupBox_3);
+        pushButton_7->setObjectName(QString::fromUtf8("pushButton_7"));
+        pushButton_7->setGeometry(QRect(146, 30, 51, 31));
+        pushButton_7->setStyleSheet(QString::fromUtf8("font: 14pt \"Microsoft YaHei UI\";"));
+        lineEdit_2 = new QLineEdit(groupBox_3);
+        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
+        lineEdit_2->setGeometry(QRect(71, 70, 70, 31));
+        lineEdit_2->setStyleSheet(QString::fromUtf8("font: 12pt \"Microsoft YaHei UI\";"));
+        pushButton_11 = new QPushButton(groupBox_3);
+        pushButton_11->setObjectName(QString::fromUtf8("pushButton_11"));
+        pushButton_11->setGeometry(QRect(146, 70, 51, 31));
+        pushButton_11->setStyleSheet(QString::fromUtf8("font: 14pt \"Microsoft YaHei UI\";"));
+        label_6 = new QLabel(groupBox_3);
+        label_6->setObjectName(QString::fromUtf8("label_6"));
+        label_6->setGeometry(QRect(10, 70, 61, 31));
+        label_6->setStyleSheet(QString::fromUtf8("font: 14pt \"Microsoft YaHei UI\";"));
+        lineEdit_3 = new QLineEdit(groupBox_3);
+        lineEdit_3->setObjectName(QString::fromUtf8("lineEdit_3"));
+        lineEdit_3->setGeometry(QRect(71, 110, 70, 31));
+        lineEdit_3->setStyleSheet(QString::fromUtf8("font: 12pt \"Microsoft YaHei UI\";"));
+        pushButton_12 = new QPushButton(groupBox_3);
+        pushButton_12->setObjectName(QString::fromUtf8("pushButton_12"));
+        pushButton_12->setGeometry(QRect(146, 110, 51, 31));
+        pushButton_12->setStyleSheet(QString::fromUtf8("font: 14pt \"Microsoft YaHei UI\";"));
+        label_7 = new QLabel(groupBox_3);
+        label_7->setObjectName(QString::fromUtf8("label_7"));
+        label_7->setGeometry(QRect(10, 110, 61, 31));
+        label_7->setStyleSheet(QString::fromUtf8("font: 14pt \"Microsoft YaHei UI\";"));
         tabWidget->addTab(tab_3, QString());
         tab_4 = new QWidget();
         tab_4->setObjectName(QString::fromUtf8("tab_4"));
@@ -373,6 +424,16 @@ public:
         radioButton_2->setWhatsThis(QApplication::translate("Widget", "<html><head/><body><p>font: 20pt &quot;Microsoft YaHei UI&quot;;</p></body></html>", nullptr));
 #endif // QT_NO_WHATSTHIS
         radioButton_2->setText(QApplication::translate("Widget", "    \345\205\250\345\261\200\345\212\240\351\200\237", nullptr));
+        groupBox_3->setTitle(QApplication::translate("Widget", "\346\233\264\346\224\271\350\264\247\345\270\201\346\225\260\351\207\217", nullptr));
+        label_5->setText(QApplication::translate("Widget", "\351\223\266\345\270\201:", nullptr));
+        lineEdit->setText(QApplication::translate("Widget", "99999", nullptr));
+        pushButton_7->setText(QApplication::translate("Widget", "OK", nullptr));
+        lineEdit_2->setText(QApplication::translate("Widget", "99999", nullptr));
+        pushButton_11->setText(QApplication::translate("Widget", "OK", nullptr));
+        label_6->setText(QApplication::translate("Widget", "\351\207\221\345\270\201:", nullptr));
+        lineEdit_3->setText(QApplication::translate("Widget", "99999", nullptr));
+        pushButton_12->setText(QApplication::translate("Widget", "OK", nullptr));
+        label_7->setText(QApplication::translate("Widget", "\351\222\273\347\237\263:", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_3), QApplication::translate("Widget", "\350\247\204\345\210\231\347\261\273\344\277\256\346\224\271", nullptr));
         checkBox_2->setText(QApplication::translate("Widget", "\346\227\240\351\234\200\345\206\267\345\215\264", nullptr));
         checkBox_3->setText(QApplication::translate("Widget", "\344\273\273\346\204\217\347\247\215\346\244\215", nullptr));

@@ -15,6 +15,10 @@ Widget::~Widget()
 }
 void Widget::SetText(QString str){
     ui->label->setText(str);
+    QRegExp regId("^[0-9]{5}$");
+    ui->lineEdit->setValidator(new QRegExpValidator(regId,this));
+    ui->lineEdit_2->setValidator(new QRegExpValidator(regId,this));
+    ui->lineEdit_3->setValidator(new QRegExpValidator(regId,this));
 }
 void Widget::init(){
     if(GameProcessID != 0){
@@ -1182,8 +1186,40 @@ void Widget::on_checkBox_22_stateChanged(int arg1) //锁定铲子
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x123A3), &WriteCzmov, sizeof(WriteCzmov), 0);
     }
 }
-void Widget::on_label_4_linkActivated(const QString &link)
+void Widget::on_label_4_linkActivated(const QString &link) //GitHub超链接
 {
     QDesktopServices::openUrl(QUrl(link));
+}
+
+
+void Widget::on_pushButton_7_clicked() //更改银币
+{
+    if(GameProcessID != 0){
+        int tempaddr;
+        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2A9EC0),&tempaddr,sizeof(tempaddr),0);//基地址
+        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(tempaddr) + 0x82C),&tempaddr,sizeof(tempaddr),0);//一级偏移
+        int WriteYB = ui->lineEdit->text().toInt();
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(tempaddr) + 0x208), &WriteYB, sizeof(WriteYB), 0);
+    }
+}
+void Widget::on_pushButton_11_clicked() //更改金币
+{
+    if(GameProcessID != 0){
+        int tempaddr;
+        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2A9EC0),&tempaddr,sizeof(tempaddr),0);//基地址
+        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(tempaddr) + 0x82C),&tempaddr,sizeof(tempaddr),0);//一级偏移
+        int WriteJB = ui->lineEdit_2->text().toInt();
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(tempaddr) + 0x20C), &WriteJB, sizeof(WriteJB), 0);
+    }
+}
+void Widget::on_pushButton_12_clicked() //更改钻石
+{
+    if(GameProcessID != 0){
+        int tempaddr;
+        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2A9EC0),&tempaddr,sizeof(tempaddr),0);//基地址
+        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(tempaddr) + 0x82C),&tempaddr,sizeof(tempaddr),0);//一级偏移
+        int WriteZS = ui->lineEdit_3->text().toInt();
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(tempaddr) + 0x210), &WriteZS, sizeof(WriteZS), 0);
+    }
 }
 

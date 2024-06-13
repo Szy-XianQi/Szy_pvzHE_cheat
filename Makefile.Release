@@ -540,30 +540,7 @@ release\widget.obj: widget.cpp widget.h \
 		C:\Qt\6.5.3\5.12.0-static\include\QtGui\qdesktopservices.h \
 		C:\Qt\6.5.3\5.12.0-static\include\QtCore\qstandardpaths.h \
 		C:\Qt\6.5.3\5.12.0-static\include\QtCore\QUrl \
-		ui_widget.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtCore\QVariant \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\QApplication \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qapplication.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtCore\qcoreapplication.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtCore\qeventloop.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qdesktopwidget.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtGui\qguiapplication.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtGui\qinputmethod.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\QCheckBox \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qcheckbox.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qabstractbutton.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtGui\qicon.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\QGroupBox \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qgroupbox.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qframe.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\QLabel \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qlabel.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\QPushButton \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qpushbutton.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\QRadioButton \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qradiobutton.h \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\QTabWidget \
-		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qtabwidget.h
+		ui_widget.h
 
 release\szy_pvzhe_cheats_plugin_import.obj: D:/Project/Qt/Szy_pvzHE_Cheats/szy_pvzhe_cheats_plugin_import.cpp 
 

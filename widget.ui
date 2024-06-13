@@ -130,9 +130,9 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QPushButton" name="pushButton_5">
      <property name="geometry">
       <rect>
-       <x>100</x>
+       <x>30</x>
        <y>368</y>
-       <width>220</width>
+       <width>180</width>
        <height>51</height>
       </rect>
      </property>
@@ -146,9 +146,9 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QPushButton" name="pushButton_6">
      <property name="geometry">
       <rect>
-       <x>340</x>
+       <x>220</x>
        <y>310</y>
-       <width>220</width>
+       <width>180</width>
        <height>51</height>
       </rect>
      </property>
@@ -162,9 +162,9 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QPushButton" name="pushButton_8">
      <property name="geometry">
       <rect>
-       <x>100</x>
+       <x>30</x>
        <y>310</y>
-       <width>220</width>
+       <width>180</width>
        <height>51</height>
       </rect>
      </property>
@@ -224,9 +224,9 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>340</x>
+       <x>220</x>
        <y>368</y>
-       <width>220</width>
+       <width>180</width>
        <height>51</height>
       </rect>
      </property>
@@ -379,6 +379,166 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       </property>
       <property name="checked">
        <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_3">
+     <property name="geometry">
+      <rect>
+       <x>410</x>
+       <y>274</y>
+       <width>201</width>
+       <height>151</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;</string>
+     </property>
+     <property name="title">
+      <string>更改货币数量</string>
+     </property>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>9</x>
+        <y>30</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>银币:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>30</y>
+        <width>70</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>99999</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_7">
+      <property name="geometry">
+       <rect>
+        <x>146</x>
+        <y>30</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>OK</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_2">
+      <property name="geometry">
+       <rect>
+        <x>71</x>
+        <y>70</y>
+        <width>70</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>99999</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_11">
+      <property name="geometry">
+       <rect>
+        <x>146</x>
+        <y>70</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>OK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>70</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>金币:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_3">
+      <property name="geometry">
+       <rect>
+        <x>71</x>
+        <y>110</y>
+        <width>70</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>99999</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_12">
+      <property name="geometry">
+       <rect>
+        <x>146</x>
+        <y>110</y>
+        <width>51</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>OK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_7">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>110</y>
+        <width>61</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>钻石:</string>
       </property>
      </widget>
     </widget>

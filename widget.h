@@ -8,6 +8,8 @@
 #include <Psapi.h>
 #include <QDesktopServices>
 #include <QUrl>
+#include<QRegExp>
+#include<QRegExpValidator>
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class Widget;
@@ -117,6 +119,12 @@ private slots:
     void on_checkBox_22_stateChanged(int arg1);
 
     void on_label_4_linkActivated(const QString &link);
+
+    void on_pushButton_7_clicked();
+
+    void on_pushButton_11_clicked();
+
+    void on_pushButton_12_clicked();
 
 private:
     Ui::Widget *ui;
