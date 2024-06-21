@@ -100,6 +100,10 @@ void Widget::init(){
                     ui->checkBox_20->setChecked(true);
             }
         }
+        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x123A3),&tempint,sizeof(tempint),0);
+        if(tempint == 0x8B909090){
+            ui->checkBox_22->setChecked(true);
+        }
         ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x6C769),&templong,sizeof(templong),0);
         if(templong == 0x245CD9C68B5C4589)
             ui->radioButton_16->setChecked(true);
@@ -173,8 +177,6 @@ void Widget::setGameProcessID(DWORD ProcessID){
             WriteProcessMemory(GameProcessHandle, (LPVOID)(tempxkAddr + 0x1C), &Writexk, sizeof(Writexk), 0);//按钮状态
             WriteProcessMemory(GameProcessHandle, (LPVOID)(tempxkAddr + 0x20), &Writexk, sizeof(Writexk), 0);//按钮状态
             WriteProcessMemory(GameProcessHandle, (LPVOID)(tempxkAddr + 0x24), &Writexk, sizeof(Writexk), 0);//按钮状态
-
-
         }
         int carhead = 0x99FC05D9;
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x58000),&carhead,sizeof(carhead),0);
