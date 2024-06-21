@@ -401,7 +401,7 @@ public:
 
     void retranslateUi(QWidget *Widget)
     {
-        Widget->setWindowTitle(QApplication::translate("Widget", "\346\244\215\347\211\251\345\244\247\346\210\230\345\203\265\345\260\270\346\235\202\344\272\244\347\211\210\344\277\256\346\224\271\345\231\250 V7.5", nullptr));
+        Widget->setWindowTitle(QApplication::translate("Widget", "\346\244\215\347\211\251\345\244\247\346\210\230\345\203\265\345\260\270\346\235\202\344\272\244\347\211\210\344\277\256\346\224\271\345\231\250 V7.5.1", nullptr));
         label->setText(QApplication::translate("Widget", "\346\234\252\345\217\221\347\216\260\346\270\270\346\210\217\350\277\233\347\250\213", nullptr));
         checkBox_7->setText(QApplication::translate("Widget", "\345\220\216\345\217\260\350\277\220\350\241\214", nullptr));
         checkBox_13->setText(QApplication::translate("Widget", "\346\227\240\350\247\206\350\277\267\351\233\276", nullptr));

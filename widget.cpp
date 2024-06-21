@@ -192,6 +192,7 @@ void Widget::setGameProcessID(DWORD ProcessID){
             ui->label_3->setText(QString::fromLocal8Bit("场上僵尸数:")+QString::number(SL));
     }
     else{
+       wxxk = false;
        wxyg = false;
        ui->checkBox->setChecked(false);
        ui->checkBox_2->setChecked(false);
@@ -213,6 +214,8 @@ void Widget::setGameProcessID(DWORD ProcessID){
        ui->checkBox_18->setChecked(false);
        ui->checkBox_19->setChecked(false);
        ui->checkBox_20->setChecked(false);
+       ui->checkBox_21->setChecked(false);
+       ui->checkBox_22->setChecked(false);
        ui->radioButton->setChecked(true);
        ui->radioButton_16->setChecked(true);
     }
@@ -502,12 +505,13 @@ void Widget::on_checkBox_14_stateChanged(int arg1) //脆皮僵尸
         }
         else{
             WriteCPJS1 = 0x1C24448920247C2B;
-            WriteCPJS2 = 0x50530875;
+            WriteCPJS2 = 0x5053087E;
             WriteCPJS3 = 0xBE831D7E;
         }
         WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x13130F), &WriteCPJS1, sizeof(WriteCPJS1), 0);
         WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x13186D), &WriteCPJS2, sizeof(WriteCPJS2), 0);
         WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x131858), &WriteCPJS3, sizeof(WriteCPJS3), 0);
+
     }
 }
 void Widget::on_checkBox_15_stateChanged(int arg1) //植物无敌
