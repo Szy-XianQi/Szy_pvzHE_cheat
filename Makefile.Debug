@@ -16,7 +16,7 @@ CFLAGS        = -nologo -Zc:wchar_t -FS -Zc:strictStrings -Zi -MTd -W3 -w44456 -
 CXXFLAGS      = -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -Zi -MTd -std:c++17 -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -EHsc /Fddebug\Szy_pvzHE_Cheats.vc.pdb $(DEFINES)
 INCPATH       = -I. -IC:\Qt\6.5.3\5.12.0-static\include -IC:\Qt\6.5.3\5.12.0-static\include\QtWidgets -IC:\Qt\6.5.3\5.12.0-static\include\QtGui -IC:\Qt\6.5.3\5.12.0-static\include\QtCore -Idebug -I. -IC:\Qt\6.5.3\5.12.0-static\mkspecs\win32-msvc 
 LINKER        = link
-LFLAGS        = /NOLOGO /DYNAMICBASE /NXCOMPAT /DEBUG /SUBSYSTEM:WINDOWS "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" /VERSION:7.5
+LFLAGS        = /NOLOGO /DYNAMICBASE /NXCOMPAT /DEBUG /SUBSYSTEM:WINDOWS "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" /VERSION:8.0
 LIBS          = /LIBPATH:C:\Qt\6.5.3\5.12.0-static\plugins\styles qwindowsvistastyled.lib /LIBPATH:C:\Qt\6.5.3\5.12.0-static\plugins\platforms qwindowsd.lib /LIBPATH:C:\Qt\6.5.3\5.12.0-static\plugins\imageformats qgifd.lib qicnsd.lib qicod.lib qjpegd.lib qtgad.lib qtiffd.lib qwbmpd.lib qwebpd.lib /LIBPATH:C:\Qt\6.5.3\5.12.0-static\lib Qt5Widgetsd.lib Qt5Guid.lib Qt5Cored.lib debug\Szy_pvzHE_Cheats_resource.res  glu32.lib opengl32.lib gdi32.lib user32.lib qtmaind.lib 
 QMAKE         = C:\Qt\6.5.3\5.12.0-static\bin\qmake.exe
 IDC           = idc
@@ -148,11 +148,11 @@ dist:
 
 clean: compiler_clean 
 	-$(DEL_FILE) debug\main.obj debug\widget.obj debug\szy_pvzhe_cheats_plugin_import.obj debug\moc_widget.obj
-	-$(DEL_FILE) debug\Szy_pvzHE_Cheats.vc.pdb debug\Szy_pvzHE_Cheats7.ilk debug\Szy_pvzHE_Cheats7.idb
+	-$(DEL_FILE) debug\Szy_pvzHE_Cheats.vc.pdb debug\Szy_pvzHE_Cheats8.ilk debug\Szy_pvzHE_Cheats8.idb
 	-$(DEL_FILE) debug\Szy_pvzHE_Cheats_resource.res
 
 distclean: clean 
-	-$(DEL_FILE) D:\Project\Qt\Szy_pvzHE_Cheats\szy_pvzhe_cheats_plugin_import.cpp .qmake.stash debug\Szy_pvzHE_Cheats7.pdb
+	-$(DEL_FILE) D:\Project\Qt\Szy_pvzHE_Cheats\szy_pvzhe_cheats_plugin_import.cpp .qmake.stash debug\Szy_pvzHE_Cheats8.pdb
 	-$(DEL_FILE) $(DESTDIR_TARGET)
 	-$(DEL_FILE) Makefile.Debug
 

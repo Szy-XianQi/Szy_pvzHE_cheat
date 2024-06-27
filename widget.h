@@ -126,6 +126,45 @@ private slots:
 
     void on_pushButton_12_clicked();
 
+    void on_pushButton_13_clicked();
+
+    void on_comboBox_activated(int index);
+
+    void on_checkBox_23_stateChanged(int arg1);
+
+    void on_checkBox_25_stateChanged(int arg1);
+
+    void on_checkBox_26_stateChanged(int arg1);
+
+    void on_pushButton_16_clicked();
+
+    void on_checkBox_24_stateChanged(int arg1);
+
+
+    void on_horizontalSlider_valueChanged(int value);
+
+    void on_checkBox_28_stateChanged(int arg1);
+
+
+    void on_checkBox_29_stateChanged(int arg1);
+
+    void on_label_13_linkActivated(const QString &link);
+
+    void on_checkBox_30_stateChanged(int arg1);
+
+    void on_pushButton_14_clicked();
+
+
+    void on_checkBox_31_stateChanged(int arg1);
+
+    void on_checkBox_32_stateChanged(int arg1);
+
+    void on_checkBox_33_stateChanged(int arg1);
+
+    void on_checkBox_34_stateChanged(int arg1);
+
+    void on_pushButton_15_clicked();
+
 private:
     Ui::Widget *ui;
     bool wxyg{false};
