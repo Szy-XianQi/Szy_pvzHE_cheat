@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>植物大战僵尸杂交版修改器 V8.0 (部分功能鼠标悬浮显示提示)</string>
+   <string>植物大战僵尸杂交版修改器 V9.0 (部分功能鼠标悬浮显示提示)</string>
   </property>
   <property name="styleSheet">
    <string notr="true"/>
@@ -73,7 +73,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <set>Qt::ImhNone</set>
    </property>
    <property name="currentIndex">
-    <number>0</number>
+    <number>1</number>
    </property>
    <widget class="QWidget" name="tab_3">
     <attribute name="title">
@@ -1005,6 +1005,101 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
         <string>抽奖盒子豪华版</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>炫彩杨桃</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>坚果保龄球</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>进化豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>流星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>苹果闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海豌豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆海草</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海洋星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>套盒坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>鱼饵菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>花盆睡莲</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁菇投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>受伤的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>医用咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>受伤的大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>黄金西瓜投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰菇王</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>自费盒子</string>
+       </property>
+      </item>
      </widget>
      <widget class="QComboBox" name="comboBox_5">
       <property name="geometry">
@@ -1549,6 +1644,101 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <item>
        <property name="text">
         <string>抽奖盒子豪华版</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>炫彩杨桃</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>坚果保龄球</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>进化豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>流星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>苹果闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海豌豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆海草</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海洋星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>套盒坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>鱼饵菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>花盆睡莲</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁菇投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>受伤的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>医用咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>受伤的大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>黄金西瓜投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰菇王</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>自费盒子</string>
        </property>
       </item>
      </widget>
@@ -2114,6 +2304,101 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <item>
        <property name="text">
         <string>抽奖盒子豪华版</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>炫彩杨桃</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>坚果保龄球</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>进化豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>流星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>苹果闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海豌豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆海草</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海洋星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>套盒坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>鱼饵菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>花盆睡莲</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁菇投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>受伤的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>医用咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>受伤的大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>黄金西瓜投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰菇王</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>自费盒子</string>
        </property>
       </item>
      </widget>
@@ -2700,6 +2985,101 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
         <string>抽奖盒子豪华版</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>炫彩杨桃</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>坚果保龄球</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>进化豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>流星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>苹果闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海豌豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆海草</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海洋星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>套盒坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>鱼饵菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>花盆睡莲</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁菇投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>手上的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>医用咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>受伤的大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>黄金西瓜投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰菇王</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>自费盒子</string>
+       </property>
+      </item>
      </widget>
     </widget>
    </widget>
@@ -3026,7 +3406,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
        <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       </property>
       <property name="text">
-       <string> 玉米黄油</string>
+       <string> 寒冰大炮</string>
       </property>
      </widget>
      <widget class="QRadioButton" name="radioButton_21">
@@ -3067,7 +3447,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
        <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       </property>
       <property name="text">
-       <string> 冰冻西瓜</string>
+       <string> 冰大豌豆</string>
       </property>
      </widget>
      <widget class="QRadioButton" name="radioButton_23">
@@ -3791,6 +4171,101 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       </item>
       <item>
        <property name="text">
+        <string>炫彩杨桃</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>坚果保龄球</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>进化豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>流星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>苹果闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海豌豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆海草</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海洋星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>套盒坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>鱼饵菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>花盆睡莲</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁菇投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>受伤的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>医用咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>受伤的大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>黄金西瓜投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰菇王</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>自费盒子</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
         <string>呼叫网管</string>
        </property>
       </item>
@@ -4346,6 +4821,101 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <item>
        <property name="text">
         <string>抽奖盒子豪华版</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>炫彩杨桃</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>坚果保龄球</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>进化豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>流星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>苹果闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海豌豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆海草</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海洋星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>套盒坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>鱼饵菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>花盆睡莲</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁菇投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>受伤的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>医用咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>受伤的大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>黄金西瓜投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰菇王</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>自费盒子</string>
        </property>
       </item>
       <item>
@@ -5698,6 +6268,101 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <item>
        <property name="text">
         <string>抽奖盒子豪华版</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>炫彩杨桃</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>坚果保龄球</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>进化豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>流星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>苹果闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海豌豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆海草</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海洋星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>套盒坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>鱼饵菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>花盆睡莲</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁菇投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>受伤的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>医用咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>受伤的大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>黄金西瓜投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰菇王</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>自费盒子</string>
        </property>
       </item>
      </widget>

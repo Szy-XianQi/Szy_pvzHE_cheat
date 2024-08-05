@@ -138,8 +138,8 @@ void Widget::init(){
         if(templong == 0x9090909090909090){
           ui->checkBox_26->setChecked(true);
         }
-        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x47C4A6),&tempint,sizeof(tempint),0);
-        if(tempint == 0x04C200B0){
+        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x410187),&tempint,sizeof(tempint),0);
+        if(tempint == 0xCCC300B0){
             ui->checkBox_28->setChecked(true);
         }
         ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x4AF800),&templong,sizeof(templong),0);
@@ -151,7 +151,7 @@ void Widget::init(){
             ui->checkBox_30->setChecked(true);
         }
         ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x482B86),&templong,sizeof(templong),0);
-        if(templong == 0x75FF90FFE5EFABE9){
+        if(templong == 0x75FF90FFF11475E9){
             ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1B4E),&tempint,sizeof(tempint),0);
             if(tempint >= 75)
                 tempint -= 25;
@@ -160,8 +160,8 @@ void Widget::init(){
             ui->comboBox_4->setCurrentIndex(tempint);
             ui->checkBox_31->setChecked(true);
         }
-        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x48EB12),&templong,sizeof(templong),0);
-        if(templong == 0x75FF90FFE53056E9){
+        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x48EEB1),&templong,sizeof(templong),0);
+        if(templong == 0x75FF90FFF0515CE9){
             ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1B8D),&tempint,sizeof(tempint),0);
             if(tempint >= 75)
                 tempint -= 25;
@@ -171,7 +171,7 @@ void Widget::init(){
             ui->checkBox_32->setChecked(true);
         }
         ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x4A36B2),&templong,sizeof(templong),0);
-        if(templong == 0x685889FFE3E4EEE9){
+        if(templong == 0x685889FFEF096DE9){
             ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1BD8),&tempint,sizeof(tempint),0);
             if(tempint >= 75)
                 tempint -= 25;
@@ -180,8 +180,8 @@ void Widget::init(){
             ui->comboBox_6->setCurrentIndex(tempint);
             ui->checkBox_33->setChecked(true);
         }
-        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x48DB7B),&templong,sizeof(templong),0);
-        if(templong == 0x8B6061FFE54095E9){
+        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x48DE9C),&templong,sizeof(templong),0);
+        if(templong == 0x8BEF8BFFF06199E9){
             ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1C47),&tempint,sizeof(tempint),0);
             if(tempint >= 75)
                 tempint -= 25;
@@ -229,20 +229,20 @@ void Widget::init(){
         }
         else
         {
-            ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1948),&templong,sizeof(templong),0);
-            if(templong == 0xEB0000000B5C45C7)
+            ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394056),&templong,sizeof(templong),0);
+            if(templong == 0x00000B5C45C70975)
                ui->radioButton_18->setChecked(true);
-            else if (templong == 0xEB000000125C45C7)
+            else if (templong == 0x0000125C45C70975)
                  ui->radioButton_17->setChecked(true);
-            else if(templong == 0xEB0000000C5C45C7)
+            else if(templong == 0x0000295C45C70975)
                 ui->radioButton_20->setChecked(true);
-            else if(templong == 0xEB0000001A5C45C7)
+            else if(templong == 0x00001A5C45C70975)
                 ui->radioButton_21->setChecked(true);
-            else if(templong == 0xEB000000055C45C7)
+            else if(templong == 0x0000225C45C70975)
                 ui->radioButton_22->setChecked(true);
-            else if(templong == 0xEB000000185C45C7)
+            else if(templong == 0x0000185C45C70975)
                 ui->radioButton_19->setChecked(true);
-            else if(templong == 0xEB000000115C45C7)
+            else if(templong == 0x0000115C45C70975)
                 ui->radioButton_23->setChecked(true);
         }
         ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2A9EAB),&tempint,sizeof(tempint),0);
@@ -565,11 +565,11 @@ void Widget::on_pushButton_4_clicked() //僵尸全出
         //更改
         long long temp1 = 0x00010000559C87C7;
         long long temp2 = 0xE9FF0000559C8783;
-        long long temp3 = 0x000000FFD324F2E9;
-        long long WriteSGTZ = 0x3B9090002CDAFAE9;
-        WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x2E1944), &temp1, sizeof(temp1), 0);
-        WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x2E194E), &temp2, sizeof(temp2), 0);
-        WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x2E1955), &temp3, sizeof(temp3), 0);
+        long long temp3 = 0x000000FFC7FDAFE9;
+        long long WriteSGTZ = 0x3B90900038023DE9;
+        WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x394087), &temp1, sizeof(temp1), 0);
+        WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x394091), &temp2, sizeof(temp2), 0);
+        WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x394098), &temp3, sizeof(temp3), 0);
         WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x13E45), &WriteSGTZ, sizeof(WriteSGTZ), 0);
         Sleep(500);
         //还原
@@ -578,9 +578,9 @@ void Widget::on_pushButton_4_clicked() //僵尸全出
         temp2 = 0;
         temp3 = 0;
         WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x13E45), &WriteSGTZ, sizeof(WriteSGTZ), 0);
-        WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x2E1944), &temp1, sizeof(temp1), 0);
-        WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x2E194E), &temp2, sizeof(temp2), 0);
-        WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x2E1955), &temp3, sizeof(temp3), 0);
+        WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x394087), &temp1, sizeof(temp1), 0);
+        WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x394091), &temp2, sizeof(temp2), 0);
+        WriteProcessMemory(GameProcessHandle, LPVOID((DWORD64)(GameHandle) + 0x394098), &temp3, sizeof(temp3), 0);
         ui->checkBox_10->setChecked(false);
     }
 }
@@ -1091,165 +1091,99 @@ void Widget::on_pushButton_10_clicked() //超强大风
 void Widget::on_radioButton_16_clicked() //还原普通子弹
 {
     if(GameProcessID != 0){
-        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3,WriteHook4,WriteHook5,WriteHook6,WriteHook7,WriteHook8;
+       long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3;
         WriteHookY = 0x245CD9C68B5C4589;
         WriteHookHead = 0x0;
         WriteHook1 = 0x0;
         WriteHook2 = 0x0;
         WriteHook3 = 0x0;
-        WriteHook4 = 0x0;
-        WriteHook5 = 0x0;
-        WriteHook6 = 0x0;
-        WriteHook7 = 0x0;
-        WriteHook8 = 0x0;
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x6C769), &WriteHookY, sizeof(WriteHookY), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E193E), &WriteHookHead, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1941), &WriteHook1, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1943), &WriteHook2, sizeof(WriteHook2), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1946), &WriteHook3, sizeof(WriteHook3), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1948), &WriteHook4, sizeof(WriteHook4), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E194F), &WriteHook5, sizeof(WriteHook5), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1951), &WriteHook6, sizeof(WriteHook6), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1954), &WriteHook7, sizeof(WriteHook7), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1956), &WriteHook8, sizeof(WriteHook8), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39404E), &WriteHookHead, sizeof(WriteHookHead), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394056), &WriteHook1, sizeof(WriteHook1), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39405E), &WriteHook2, sizeof(WriteHook2), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394066), &WriteHook3, sizeof(WriteHook3), 0);
     }
 }
 void Widget::on_radioButton_18_clicked() //毁灭菇
 {
     if(GameProcessID != 0){
-        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3,WriteHook4,WriteHook5,WriteHook6,WriteHook7,WriteHook8;
-        WriteHookY = 0x245CD9002751D0E9;
+        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3;
+        WriteHookY = 0x245CD9003278E0E9;
         WriteHookHead = 0x0FF88305740EF883;
-        WriteHook1 = 0xC709750FF8830574;
-        WriteHook2 = 0x5C45C709750FF883;
-        WriteHook3 = 0x00000B5C45C70975;
-        WriteHook4 = 0xEB0000000B5C45C7;
-        WriteHook5 = 0xE9C68B5C458903EB;
-        WriteHook6 = 0xAE13E9C68B5C4589;
-        WriteHook7 = 0x90FFD8AE13E9C68B;
-        WriteHook8 = 0x000090FFD8AE13E9;
+        WriteHook1 = 0x00000B5C45C70975;
+        WriteHook2 = 0xC68B5C458903EB00;
+        WriteHook3 = 0x000090FFCD8703E9;
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x6C769), &WriteHookY, sizeof(WriteHookY), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E193E), &WriteHookHead, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1941), &WriteHook1, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1943), &WriteHook2, sizeof(WriteHook2), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1946), &WriteHook3, sizeof(WriteHook3), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1948), &WriteHook4, sizeof(WriteHook4), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E194F), &WriteHook5, sizeof(WriteHook5), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1951), &WriteHook6, sizeof(WriteHook6), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1954), &WriteHook7, sizeof(WriteHook7), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1956), &WriteHook8, sizeof(WriteHook8), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39404E), &WriteHookHead, sizeof(WriteHookHead), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394056), &WriteHook1, sizeof(WriteHook1), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39405E), &WriteHook2, sizeof(WriteHook2), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394066), &WriteHook3, sizeof(WriteHook3), 0);
     }
 }
-
-
 void Widget::on_radioButton_17_clicked() //魅惑
 {
     if(GameProcessID != 0){
-        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3,WriteHook4,WriteHook5,WriteHook6,WriteHook7,WriteHook8;
-        WriteHookY = 0x245CD9002751D0E9;
+        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3;
+        WriteHookY = 0x245CD9003278E0E9;
         WriteHookHead = 0x0FF88305740EF883;
-        WriteHook1 = 0xC709750FF8830574;
-        WriteHook2 = 0x5C45C709750FF883;
-        WriteHook3 = 0x00000B5C45C70975;
-        WriteHook4 = 0xEB000000125C45C7;
-        WriteHook5 = 0xE9C68B5C458903EB;
-        WriteHook6 = 0xAE13E9C68B5C4589;
-        WriteHook7 = 0x90FFD8AE13E9C68B;
-        WriteHook8 = 0x000090FFD8AE13E9;
+        WriteHook1 = 0x0000125C45C70975;
+        WriteHook2 = 0xC68B5C458903EB00;
+        WriteHook3 = 0x000090FFCD8703E9;
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x6C769), &WriteHookY, sizeof(WriteHookY), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E193E), &WriteHookHead, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1941), &WriteHook1, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1943), &WriteHook2, sizeof(WriteHook2), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1946), &WriteHook3, sizeof(WriteHook3), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1948), &WriteHook4, sizeof(WriteHook4), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E194F), &WriteHook5, sizeof(WriteHook5), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1951), &WriteHook6, sizeof(WriteHook6), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1954), &WriteHook7, sizeof(WriteHook7), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1956), &WriteHook8, sizeof(WriteHook8), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39404E), &WriteHookHead, sizeof(WriteHookHead), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394056), &WriteHook1, sizeof(WriteHook1), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39405E), &WriteHook2, sizeof(WriteHook2), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394066), &WriteHook3, sizeof(WriteHook3), 0);
     }
 }
-
-
-void Widget::on_radioButton_20_clicked() //黄油
+void Widget::on_radioButton_20_clicked() //冰炮
 {
     if(GameProcessID != 0){
-        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3,WriteHook4,WriteHook5,WriteHook6,WriteHook7,WriteHook8;
-        WriteHookY = 0x245CD9002751D0E9;
+        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3;
+        WriteHookY = 0x245CD9003278E0E9;
         WriteHookHead = 0x0FF88305740EF883;
-        WriteHook1 = 0xC709750FF8830574;
-        WriteHook2 = 0x5C45C709750FF883;
-        WriteHook3 = 0x00000B5C45C70975;
-        WriteHook4 = 0xEB0000000C5C45C7;
-        WriteHook5 = 0xE9C68B5C458903EB;
-        WriteHook6 = 0xAE13E9C68B5C4589;
-        WriteHook7 = 0x90FFD8AE13E9C68B;
-        WriteHook8 = 0x000090FFD8AE13E9;
+        WriteHook1 = 0x0000295C45C70975;
+        WriteHook2 = 0xC68B5C458903EB00;
+        WriteHook3 = 0x000090FFCD8703E9;
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x6C769), &WriteHookY, sizeof(WriteHookY), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E193E), &WriteHookHead, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1941), &WriteHook1, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1943), &WriteHook2, sizeof(WriteHook2), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1946), &WriteHook3, sizeof(WriteHook3), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1948), &WriteHook4, sizeof(WriteHook4), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E194F), &WriteHook5, sizeof(WriteHook5), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1951), &WriteHook6, sizeof(WriteHook6), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1954), &WriteHook7, sizeof(WriteHook7), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1956), &WriteHook8, sizeof(WriteHook8), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39404E), &WriteHookHead, sizeof(WriteHookHead), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394056), &WriteHook1, sizeof(WriteHook1), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39405E), &WriteHook2, sizeof(WriteHook2), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394066), &WriteHook3, sizeof(WriteHook3), 0);
     }
 }
-
-
 void Widget::on_radioButton_21_clicked() //土豆地雷
 {
     if(GameProcessID != 0){
-        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3,WriteHook4,WriteHook5,WriteHook6,WriteHook7,WriteHook8;
-        WriteHookY = 0x245CD9002751D0E9;
+        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3;
+        WriteHookY = 0x245CD9003278E0E9;
         WriteHookHead = 0x0FF88305740EF883;
-        WriteHook1 = 0xC709750FF8830574;
-        WriteHook2 = 0x5C45C709750FF883;
-        WriteHook3 = 0x00000B5C45C70975;
-        WriteHook4 = 0xEB0000001A5C45C7;
-        WriteHook5 = 0xE9C68B5C458903EB;
-        WriteHook6 = 0xAE13E9C68B5C4589;
-        WriteHook7 = 0x90FFD8AE13E9C68B;
-        WriteHook8 = 0x000090FFD8AE13E9;
+        WriteHook1 = 0x00001A5C45C70975;
+        WriteHook2 = 0xC68B5C458903EB00;
+        WriteHook3 = 0x000090FFCD8703E9;
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x6C769), &WriteHookY, sizeof(WriteHookY), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E193E), &WriteHookHead, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1941), &WriteHook1, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1943), &WriteHook2, sizeof(WriteHook2), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1946), &WriteHook3, sizeof(WriteHook3), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1948), &WriteHook4, sizeof(WriteHook4), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E194F), &WriteHook5, sizeof(WriteHook5), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1951), &WriteHook6, sizeof(WriteHook6), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1954), &WriteHook7, sizeof(WriteHook7), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1956), &WriteHook8, sizeof(WriteHook8), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39404E), &WriteHookHead, sizeof(WriteHookHead), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394056), &WriteHook1, sizeof(WriteHook1), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39405E), &WriteHook2, sizeof(WriteHook2), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394066), &WriteHook3, sizeof(WriteHook3), 0);
     }
 }
 
 
-void Widget::on_radioButton_22_clicked() //冰瓜
+void Widget::on_radioButton_22_clicked() //冰大豌豆
 {
     if(GameProcessID != 0){
-        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3,WriteHook4,WriteHook5,WriteHook6,WriteHook7,WriteHook8;
-        WriteHookY = 0x245CD9002751D0E9;
+        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3;
+        WriteHookY = 0x245CD9003278E0E9;
         WriteHookHead = 0x0FF88305740EF883;
-        WriteHook1 = 0xC709750FF8830574;
-        WriteHook2 = 0x5C45C709750FF883;
-        WriteHook3 = 0x00000B5C45C70975;
-        WriteHook4 = 0xEB000000055C45C7;
-        WriteHook5 = 0xE9C68B5C458903EB;
-        WriteHook6 = 0xAE13E9C68B5C4589;
-        WriteHook7 = 0x90FFD8AE13E9C68B;
-        WriteHook8 = 0x000090FFD8AE13E9;
+        WriteHook1 = 0x0000225C45C70975;
+        WriteHook2 = 0xC68B5C458903EB00;
+        WriteHook3 = 0x000090FFCD8703E9;
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x6C769), &WriteHookY, sizeof(WriteHookY), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E193E), &WriteHookHead, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1941), &WriteHook1, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1943), &WriteHook2, sizeof(WriteHook2), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1946), &WriteHook3, sizeof(WriteHook3), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1948), &WriteHook4, sizeof(WriteHook4), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E194F), &WriteHook5, sizeof(WriteHook5), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1951), &WriteHook6, sizeof(WriteHook6), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1954), &WriteHook7, sizeof(WriteHook7), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1956), &WriteHook8, sizeof(WriteHook8), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39404E), &WriteHookHead, sizeof(WriteHookHead), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394056), &WriteHook1, sizeof(WriteHook1), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39405E), &WriteHook2, sizeof(WriteHook2), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394066), &WriteHook3, sizeof(WriteHook3), 0);
     }
 }
 
@@ -1257,27 +1191,17 @@ void Widget::on_radioButton_22_clicked() //冰瓜
 void Widget::on_radioButton_19_clicked() //辣椒
 {
     if(GameProcessID != 0){
-        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3,WriteHook4,WriteHook5,WriteHook6,WriteHook7,WriteHook8;
-        WriteHookY = 0x245CD9002751D0E9;
+        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3;
+        WriteHookY = 0x245CD9003278E0E9;
         WriteHookHead = 0x0FF88305740EF883;
-        WriteHook1 = 0xC709750FF8830574;
-        WriteHook2 = 0x5C45C709750FF883;
-        WriteHook3 = 0x00000B5C45C70975;
-        WriteHook4 = 0xEB000000185C45C7;
-        WriteHook5 = 0xE9C68B5C458903EB;
-        WriteHook6 = 0xAE13E9C68B5C4589;
-        WriteHook7 = 0x90FFD8AE13E9C68B;
-        WriteHook8 = 0x000090FFD8AE13E9;
+        WriteHook1 = 0x0000185C45C70975;
+        WriteHook2 = 0xC68B5C458903EB00;
+        WriteHook3 = 0x000090FFCD8703E9;
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x6C769), &WriteHookY, sizeof(WriteHookY), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E193E), &WriteHookHead, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1941), &WriteHook1, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1943), &WriteHook2, sizeof(WriteHook2), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1946), &WriteHook3, sizeof(WriteHook3), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1948), &WriteHook4, sizeof(WriteHook4), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E194F), &WriteHook5, sizeof(WriteHook5), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1951), &WriteHook6, sizeof(WriteHook6), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1954), &WriteHook7, sizeof(WriteHook7), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1956), &WriteHook8, sizeof(WriteHook8), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39404E), &WriteHookHead, sizeof(WriteHookHead), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394056), &WriteHook1, sizeof(WriteHook1), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39405E), &WriteHook2, sizeof(WriteHook2), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394066), &WriteHook3, sizeof(WriteHook3), 0);
     }
 }
 
@@ -1285,27 +1209,17 @@ void Widget::on_radioButton_19_clicked() //辣椒
 void Widget::on_radioButton_23_clicked() //冰刺
 {
     if(GameProcessID != 0){
-        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3,WriteHook4,WriteHook5,WriteHook6,WriteHook7,WriteHook8;
-        WriteHookY = 0x245CD9002751D0E9;
+        long long WriteHookY,WriteHookHead,WriteHook1,WriteHook2,WriteHook3;
+        WriteHookY = 0x245CD9003278E0E9;
         WriteHookHead = 0x0FF88305740EF883;
-        WriteHook1 = 0xC709750FF8830574;
-        WriteHook2 = 0x5C45C709750FF883;
-        WriteHook3 = 0x00000B5C45C70975;
-        WriteHook4 = 0xEB000000115C45C7;
-        WriteHook5 = 0xE9C68B5C458903EB;
-        WriteHook6 = 0xAE13E9C68B5C4589;
-        WriteHook7 = 0x90FFD8AE13E9C68B;
-        WriteHook8 = 0x000090FFD8AE13E9;
+        WriteHook1 = 0x0000115C45C70975;
+        WriteHook2 = 0xC68B5C458903EB00;
+        WriteHook3 = 0x000090FFCD8703E9;
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x6C769), &WriteHookY, sizeof(WriteHookY), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E193E), &WriteHookHead, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1941), &WriteHook1, sizeof(WriteHookHead), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1943), &WriteHook2, sizeof(WriteHook2), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1946), &WriteHook3, sizeof(WriteHook3), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1948), &WriteHook4, sizeof(WriteHook4), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E194F), &WriteHook5, sizeof(WriteHook5), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1951), &WriteHook6, sizeof(WriteHook6), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1954), &WriteHook7, sizeof(WriteHook7), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1956), &WriteHook8, sizeof(WriteHook8), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39404E), &WriteHookHead, sizeof(WriteHookHead), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394056), &WriteHook1, sizeof(WriteHook1), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39405E), &WriteHook2, sizeof(WriteHook2), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394066), &WriteHook3, sizeof(WriteHook3), 0);
     }
 }
 void Widget::on_checkBox_21_stateChanged(int arg1) //无需选卡
@@ -1446,23 +1360,23 @@ void Widget::on_pushButton_13_clicked() //种植植物
             int mfid = ui->comboBox_2->currentIndex();
             if(mfid > 50)
                 mfid += 24; //跳过植物道具
-            if(mfid == 131)
+            if(mfid == 150)
                 mfid = 56; //呼叫网管
-            long long mfzhook = 0xA9E990002835B5E9;
+            long long mfzhook = 0xA9E9900033641FE9;
             long long mfzhook1 = 0x89128B006E1276BA;
             int mfzhook2 = 0x9389128B;
-            long long mfzhook3 = 0x3AE9000001389389;
-            long long mfzhook4 = 0x000000FFD7CA3AE9;
+            long long mfzhook3 = 0xD0E9000001389389;
+            long long mfzhook4 = 0x000090FFCC9BD0E9;
             WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1276),&mfid,sizeof(mfid),0);
             WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x5DC4C),&mfzhook,sizeof(mfzhook),0);
-            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1206),&mfzhook1,sizeof(mfzhook1),0);
-            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E120B),&mfzhook2,sizeof(mfzhook2),0);
-            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E120D),&mfzhook3,sizeof(mfzhook3),0);
-            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1213),&mfzhook4,sizeof(mfzhook4),0);
+            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394070),&mfzhook1,sizeof(mfzhook1),0);
+            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394075),&mfzhook2,sizeof(mfzhook2),0);
+            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394077),&mfzhook3,sizeof(mfzhook3),0);
+            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39407D),&mfzhook4,sizeof(mfzhook4),0);
         }
         if(zzid > 50)
             zzid += 24; //跳过植物道具
-        if(zzid == 131)
+        if(zzid == 150)
             zzid = 56; //呼叫网管
         if(!ui->checkBox_27->isChecked()){ //全屏种植未选中
             int zzx = ui->lineEdit_4->text().toInt() -1; //行坐标修正
@@ -1478,6 +1392,7 @@ void Widget::on_pushButton_13_clicked() //种植植物
             //调用注入的代码
             HANDLE tempThreadHandle = CreateRemoteThread(GameProcessHandle,NULL,0,(LPTHREAD_START_ROUTINE)tempaddr,NULL,0,&tempThreadId);
             WaitForSingleObject(tempThreadHandle,INFINITE); //等待注入代码运行结束
+            Sleep(50);
             VirtualFreeEx(GameProcessHandle,tempaddr,0,MEM_RELEASE);//释放开辟的空间
         }
         else{ //全屏种植选中
@@ -1500,6 +1415,7 @@ void Widget::on_pushButton_13_clicked() //种植植物
                     zzx++;
                 }
             }
+            Sleep(50);
             VirtualFreeEx(GameProcessHandle,tempaddr,0,MEM_RELEASE);//释放开辟的空间
         }
     }
@@ -1566,20 +1482,20 @@ void Widget::on_checkBox_25_stateChanged(int arg1) //修改阳光内的阳光值
             ui->lineEdit_7->setEnabled(true);
             ui->lineEdit_8->setEnabled(true);
             ui->pushButton_16->setEnabled(true);
-            ggygzjmp = 0x0F7490002B1009E9;
+            ggygzjmp = 0x0F7490003636E0E9;
             ggygzhook1 = 0x0B7505F88358468B;
             ggygzhook2 = 0xC00D8B0B7505F883;
             ggygzhook3 = 0x006E19C00D8B0B75;
-            ggygzhook4 = 0x15E9006E19C00D8B;
-            ggygzhook5 = 0x04F883FFD4F015E9;
+            ggygzhook4 = 0x3EE9006E19C00D8B;
+            ggygzhook5 = 0x04F883FFC9C93EE9;
             ggygzhook6 = 0xC40D8B0B7504F883;
             ggygzhook7 = 0x006E19C40D8B0B75;
-            ggygzhook8 = 0x05E9006E19C40D8B;
-            ggygzhook9 = 0x06F883FFD4F005E9;
+            ggygzhook8 = 0x2EE9006E19C40D8B;
+            ggygzhook9 = 0x06F883FFC9C92EE9;
             ggygzhook10 = 0xC80D8B067506F883;
             ggygzhook11 = 0x006E19C80D8B0675;
-            ggygzhook12 = 0xF5E9006E19C80D8B;
-            ggygzhook13 = 0x000090FFD4EFF5E9;
+            ggygzhook12 = 0x1EE9006E19C80D8B;
+            ggygzhook13 = 0x000090FFC9C91EE9;
             xyyz = ui->lineEdit_6->text().toInt();
             zyyz = ui->lineEdit_7->text().toInt();
             dyyz = ui->lineEdit_8->text().toInt();
@@ -1609,19 +1525,19 @@ void Widget::on_checkBox_25_stateChanged(int arg1) //修改阳光内的阳光值
             dyyz = 50;
         }
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x309D8), &ggygzjmp, sizeof(ggygzjmp), 0); //jmp到新地址
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E19E6), &ggygzhook1, sizeof(ggygzhook1), 0); //mov eax,[esi+58]
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E19E9), &ggygzhook2, sizeof(ggygzhook2), 0); //cmp eax,05
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E19EC), &ggygzhook3, sizeof(ggygzhook3), 0); //jne PlantsVsZombies.exe+2E19F9
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E19EE), &ggygzhook4, sizeof(ggygzhook4), 0); //mov ecx,[PlantsVsZombies.exe+2E19C0] PlantsVsZombies.exe+2E19C0作为小阳光数值
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E19F4), &ggygzhook5, sizeof(ggygzhook5), 0); //jmp PlantsVsZombies.exe+30A0E
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E19F9), &ggygzhook6, sizeof(ggygzhook6), 0); //cmp eax,04
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E19FC), &ggygzhook7, sizeof(ggygzhook7), 0); //jne PlantsVsZombies.exe+2E1A09
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E19FE), &ggygzhook8, sizeof(ggygzhook8), 0); //mov ecx,[PlantsVsZombies.exe+2E19C4] PlantsVsZombies.exe+2E19C4作为中阳光数值
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1A04), &ggygzhook9, sizeof(ggygzhook9), 0); //jmp PlantsVsZombies.exe+30A0E
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1A09), &ggygzhook10, sizeof(ggygzhook10), 0); //cmp eax,06
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1A0C), &ggygzhook11, sizeof(ggygzhook11), 0); //jne PlantsVsZombies.exe+2E1A14
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1A0E), &ggygzhook12, sizeof(ggygzhook12), 0); //mov ecx,[PlantsVsZombies.exe+2E19C8] PlantsVsZombies.exe+2E19C8作为大阳光数值
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1A14), &ggygzhook13, sizeof(ggygzhook13), 0); //jmp PlantsVsZombies.exe+30A0E
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940BD), &ggygzhook1, sizeof(ggygzhook1), 0); //mov eax,[esi+58]
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940C0), &ggygzhook2, sizeof(ggygzhook2), 0); //cmp eax,05
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940C3), &ggygzhook3, sizeof(ggygzhook3), 0); //jne PlantsVsZombies.exe+2E19F9
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940C5), &ggygzhook4, sizeof(ggygzhook4), 0); //mov ecx,[PlantsVsZombies.exe+2E19C0] PlantsVsZombies.exe+2E19C0作为小阳光数值
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940CB), &ggygzhook5, sizeof(ggygzhook5), 0); //jmp PlantsVsZombies.exe+30A0E
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940D0), &ggygzhook6, sizeof(ggygzhook6), 0); //cmp eax,04
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940D3), &ggygzhook7, sizeof(ggygzhook7), 0); //jne PlantsVsZombies.exe+2E1A09
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940D5), &ggygzhook8, sizeof(ggygzhook8), 0); //mov ecx,[PlantsVsZombies.exe+2E19C4] PlantsVsZombies.exe+2E19C4作为中阳光数值
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940DB), &ggygzhook9, sizeof(ggygzhook9), 0); //jmp PlantsVsZombies.exe+30A0E
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940E0), &ggygzhook10, sizeof(ggygzhook10), 0); //cmp eax,06
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940E3), &ggygzhook11, sizeof(ggygzhook11), 0); //jne PlantsVsZombies.exe+2E1A14
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940E5), &ggygzhook12, sizeof(ggygzhook12), 0); //mov ecx,[PlantsVsZombies.exe+2E19C8] PlantsVsZombies.exe+2E19C8作为大阳光数值
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940EB), &ggygzhook13, sizeof(ggygzhook13), 0); //jmp PlantsVsZombies.exe+30A0E
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E19C0), &xyyz, sizeof(xyyz), 0); //写入小阳光数值
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E19C4), &zyyz, sizeof(zyyz), 0); //写入中阳光数值
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E19C8), &dyyz, sizeof(dyyz), 0); //写入大阳光数值
@@ -1724,10 +1640,11 @@ void Widget::on_horizontalSlider_valueChanged(int value) //调整阳光下落速
             bdl3 = 0x8B573C6A;
             bdl4 = 0xE8CE8B57;
             bdl5 = 0xC35B5FFFFF8F1FE8;
-            hook1 = 0xB98390002CDE86E9;
+            hook1 = 0xB98390003804D3E9;
+
             hook2 = 0x8689006E1A7A058B;
-            hook3 = 0x6AE9000055388689;
-            hook4 = 0x000090FFD3216AE9;
+            hook3 = 0x1DE9000055388689;
+            hook4 = 0x000090FFC7FB1DE9;
             if(value == 1)
                 hooknum = 3000;
             else if(value == 2)
@@ -1749,9 +1666,10 @@ void Widget::on_horizontalSlider_valueChanged(int value) //调整阳光下落速
 
             WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1A7A), &hooknum, sizeof(hooknum), 0);
             WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x13BCB), &hook1, sizeof(hook1), 0);
-            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1A56), &hook2, sizeof(hook2), 0);
-            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1A5C), &hook3, sizeof(hook3), 0);
-            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1A62), &hook4, sizeof(hook4), 0);
+
+            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940A3), &hook2, sizeof(hook2), 0);
+            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940A9), &hook3, sizeof(hook3), 0);
+            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x3940AF), &hook4, sizeof(hook4), 0);
         }
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x13BE4), &bdl1, sizeof(bdl1), 0);
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x13BE6), &bdl2, sizeof(bdl2), 0);
@@ -1766,13 +1684,15 @@ void Widget::on_checkBox_28_stateChanged(int arg1) //金卡恒定不涨价
         int jkhd;
         if(arg1 == 2) //被选中
         {
-            jkhd = 0x04C200B0;
+            jkhd = 0xCCC300B0;
         }
         else
         {
-            jkhd = 0x04C201B0;
+            jkhd = 0xCCC301B0;
         }
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x47C4A6), &jkhd, sizeof(jkhd), 0);
+
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x410187), &jkhd, sizeof(jkhd), 0);
+
     }
 }
 void Widget::on_checkBox_29_stateChanged(int arg1) //没有月末
@@ -1839,11 +1759,11 @@ void Widget::on_checkBox_31_stateChanged(int arg1) //锁定抽奖盒子
             if(zwid == 48 ||zwid == 49) //模仿者修正
                 zwid++;
             WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1B4E), &zwid, sizeof(zwid), 0);
-            hookhard = 0x75FF90FFE5EFABE9;
+            hookhard = 0x75FF90FFF11475E9;
             hook1 = 0x006E1B4E35FF016A;
             hook2 = 0x458B006E1B4E35FF;
-            hook3 = 0x001A1046E91C458B;
-            hook4 = 0x000000001A1046E9;
+            hook3 = 0x000EEB7CE91C458B;
+            hook4 = 0x000000000EEB7CE9;
         }
         else
         {
@@ -1855,10 +1775,10 @@ void Widget::on_checkBox_31_stateChanged(int arg1) //锁定抽奖盒子
             hook4 = 0;
         }
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x482B86), &hookhard, sizeof(hookhard), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1B36), &hook1, sizeof(hook1), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1B38), &hook2, sizeof(hook2), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1B3E), &hook3, sizeof(hook3), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1B41), &hook4, sizeof(hook4), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394000), &hook1, sizeof(hook1), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394002), &hook2, sizeof(hook2), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394008), &hook3, sizeof(hook3), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39400B), &hook4, sizeof(hook4), 0);
     }
 }
 void Widget::on_checkBox_32_stateChanged(int arg1) //锁定豪华盒子
@@ -1873,11 +1793,11 @@ void Widget::on_checkBox_32_stateChanged(int arg1) //锁定豪华盒子
             if(zwid == 48 ||zwid == 49) //模仿者修正
                 zwid++;
             WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1B8D), &zwid, sizeof(zwid), 0);
-            hookhard = 0x75FF90FFE53056E9;
+            hookhard = 0x75FF90FFF0515CE9;
             hook1 = 0x006E1B8D35FF016A;
             hook2 = 0x458B006E1B8D35FF;
-            hook3 = 0x001ACF9BE91C458B;
-            hook4 = 0x000000001ACF9BE9;
+            hook3 = 0x000FAE95E91C458B;
+            hook4 = 0x000000000FAE95E9;
         }
         else
         {
@@ -1888,11 +1808,11 @@ void Widget::on_checkBox_32_stateChanged(int arg1) //锁定豪华盒子
             hook3 = 0;
             hook4 = 0;
         }
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x48EB12), &hookhard, sizeof(hookhard), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1B6D), &hook1, sizeof(hook1), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1B6F), &hook2, sizeof(hook2), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1B75), &hook3, sizeof(hook3), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1B78), &hook4, sizeof(hook4), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x48EEB1), &hookhard, sizeof(hookhard), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394012), &hook1, sizeof(hook1), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394014), &hook2, sizeof(hook2), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39401A), &hook3, sizeof(hook3), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39401D), &hook4, sizeof(hook4), 0);
     }
 }
 void Widget::on_checkBox_33_stateChanged(int arg1) //锁定宝藏金坑
@@ -1907,11 +1827,11 @@ void Widget::on_checkBox_33_stateChanged(int arg1) //锁定宝藏金坑
             if(zwid == 48 ||zwid == 49) //模仿者修正
                 zwid++;
             WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1BD8), &zwid, sizeof(zwid), 0);
-            hookhard = 0x685889FFE3E4EEE9;
-            hook1 = 0xD81D8BFFD2AF66E8;
+            hookhard = 0x685889FFEF096DE9;
+            hook1 = 0xD81D8BFFC78AE7E8;
             hook2 = 0x5889006E1BD81D8B;
-            hook3 = 0x001C1B02E9685889;
-            hook4 = 0x000090001C1B02E9;
+            hook3 = 0x0010F683E9685889;
+            hook4 = 0x0000900010F683E9;
         }
         else
         {
@@ -1923,16 +1843,16 @@ void Widget::on_checkBox_33_stateChanged(int arg1) //锁定宝藏金坑
             hook4 = 0;
         }
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x4A36B2), &hookhard, sizeof(hookhard), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1BA5), &hook1, sizeof(hook1), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1BAA), &hook2, sizeof(hook2), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1BB0), &hook3, sizeof(hook3), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1BB3), &hook4, sizeof(hook4), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394024), &hook1, sizeof(hook1), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394029), &hook2, sizeof(hook2), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39402F), &hook3, sizeof(hook3), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394032), &hook4, sizeof(hook4), 0);
     }
 }
 void Widget::on_checkBox_34_stateChanged(int arg1) //锁定备用物资
 {
     if(GameProcessID != 0){
-        long long hookhard,hook1,hook2,hook3,hook4;
+        long long hookhard,hook1,hook2,hook3,hook4,hook5;
         if(arg1 == 2){ //被选中
             ui->comboBox_7->setEnabled(false);
             int zwid = ui->comboBox_7->currentIndex();
@@ -1941,26 +1861,29 @@ void Widget::on_checkBox_34_stateChanged(int arg1) //锁定备用物资
             if(zwid == 48 ||zwid == 49) //模仿者修正
                 zwid++;
             WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1C47), &zwid, sizeof(zwid), 0);
-            hookhard = 0x8B6061FFE54095E9;
-            hook1 = 0x058B001ABEEC8F0F;
-            hook2 = 0x4389006E1C47058B;
-            hook3 = 0x001ABF57E9684389;
-            hook4 = 0x000000001ABF57E9;
+            hookhard = 0x8BEF8BFFF06199E9;
+            hook1 = 0x4389006E1C47058B;
+            hook2 = 0x9E57E96061684389;
+            hook3 = 0x00000F9E57E96061;
+            hook4 = 0x0000000F9E57E960;
+            hook5 = 0x000000000F9E57E9;
         }
         else
         {
             ui->comboBox_7->setEnabled(true);
-            hookhard = 0x8B60616843898A7F;
+            hookhard = 0x8BEF8B6061684389;
             hook1 = 0;
             hook2 = 0;
             hook3 = 0;
             hook4 = 0;
+            hook5 = 0;
         }
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x48DB7B), &hookhard, sizeof(hookhard), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1C15), &hook1, sizeof(hook1), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1C1B), &hook2, sizeof(hook2), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1C21), &hook3, sizeof(hook3), 0);
-        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2E1C24), &hook4, sizeof(hook4), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x48DE9C), &hookhard, sizeof(hookhard), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x39403A), &hook1, sizeof(hook1), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394040), &hook2, sizeof(hook2), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394043), &hook3, sizeof(hook3), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394044), &hook4, sizeof(hook4), 0);
+        WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x394045), &hook5, sizeof(hook5), 0);
     }
 }
 void dtcall(){ //搭梯call
@@ -2008,4 +1931,5 @@ void Widget::on_pushButton_15_clicked() //搭梯
         VirtualFreeEx(GameProcessHandle,tempaddr,0,MEM_RELEASE);//释放开辟的空间
     }
 }
+
 

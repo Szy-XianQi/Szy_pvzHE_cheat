@@ -165,6 +165,7 @@ private slots:
 
     void on_pushButton_15_clicked();
 
+
 private:
     Ui::Widget *ui;
     bool wxyg{false};
