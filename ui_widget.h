@@ -56,8 +56,8 @@ public:
     QCheckBox *checkBox_33;
     QCheckBox *checkBox_34;
     QComboBox *comboBox_7;
-    QWidget *tab_4;
     QCheckBox *checkBox_2;
+    QWidget *tab_4;
     QCheckBox *checkBox_3;
     QCheckBox *checkBox_4;
     QCheckBox *checkBox_5;
@@ -90,6 +90,7 @@ public:
     QComboBox *comboBox_2;
     QLabel *label_11;
     QCheckBox *checkBox_27;
+    QCheckBox *checkBox_35;
     QWidget *tab_5;
     QCheckBox *checkBox_17;
     QCheckBox *checkBox_19;
@@ -169,15 +170,15 @@ public:
         tab_3->setObjectName(QString::fromUtf8("tab_3"));
         checkBox_7 = new QCheckBox(tab_3);
         checkBox_7->setObjectName(QString::fromUtf8("checkBox_7"));
-        checkBox_7->setGeometry(QRect(10, 30, 161, 48));
+        checkBox_7->setGeometry(QRect(30, 30, 161, 48));
         checkBox_7->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         checkBox_13 = new QCheckBox(tab_3);
         checkBox_13->setObjectName(QString::fromUtf8("checkBox_13"));
-        checkBox_13->setGeometry(QRect(10, 90, 161, 48));
+        checkBox_13->setGeometry(QRect(30, 90, 161, 48));
         checkBox_13->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         checkBox_8 = new QCheckBox(tab_3);
         checkBox_8->setObjectName(QString::fromUtf8("checkBox_8"));
-        checkBox_8->setGeometry(QRect(10, 150, 161, 48));
+        checkBox_8->setGeometry(QRect(30, 150, 161, 48));
         checkBox_8->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         pushButton_5 = new QPushButton(tab_3);
         pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
@@ -193,7 +194,7 @@ public:
         pushButton_8->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         checkBox = new QCheckBox(tab_3);
         checkBox->setObjectName(QString::fromUtf8("checkBox"));
-        checkBox->setGeometry(QRect(170, 30, 161, 48));
+        checkBox->setGeometry(QRect(200, 30, 161, 48));
         QFont font;
         font.setFamily(QString::fromUtf8("Microsoft YaHei UI"));
         font.setPointSize(20);
@@ -205,7 +206,7 @@ public:
         checkBox->setChecked(false);
         checkBox_12 = new QCheckBox(tab_3);
         checkBox_12->setObjectName(QString::fromUtf8("checkBox_12"));
-        checkBox_12->setGeometry(QRect(170, 150, 161, 48));
+        checkBox_12->setGeometry(QRect(200, 150, 161, 48));
         checkBox_12->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         pushButton = new QPushButton(tab_3);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
@@ -213,14 +214,14 @@ public:
         pushButton->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         checkBox_21 = new QCheckBox(tab_3);
         checkBox_21->setObjectName(QString::fromUtf8("checkBox_21"));
-        checkBox_21->setGeometry(QRect(170, 90, 161, 48));
+        checkBox_21->setGeometry(QRect(200, 90, 161, 48));
         checkBox_21->setFont(font);
         checkBox_21->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         checkBox_21->setCheckable(true);
         checkBox_21->setChecked(false);
         checkBox_22 = new QCheckBox(tab_3);
         checkBox_22->setObjectName(QString::fromUtf8("checkBox_22"));
-        checkBox_22->setGeometry(QRect(10, 210, 161, 48));
+        checkBox_22->setGeometry(QRect(370, 30, 161, 48));
         checkBox_22->setFont(font);
         checkBox_22->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         checkBox_22->setCheckable(true);
@@ -248,15 +249,15 @@ public:
         radioButton_2->setChecked(false);
         checkBox_29 = new QCheckBox(tab_3);
         checkBox_29->setObjectName(QString::fromUtf8("checkBox_29"));
-        checkBox_29->setGeometry(QRect(170, 210, 161, 48));
+        checkBox_29->setGeometry(QRect(540, 30, 161, 48));
         checkBox_29->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         checkBox_30 = new QCheckBox(tab_3);
         checkBox_30->setObjectName(QString::fromUtf8("checkBox_30"));
-        checkBox_30->setGeometry(QRect(340, 30, 161, 48));
+        checkBox_30->setGeometry(QRect(30, 210, 161, 48));
         checkBox_30->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         groupBox_7 = new QGroupBox(tab_3);
         groupBox_7->setObjectName(QString::fromUtf8("groupBox_7"));
-        groupBox_7->setGeometry(QRect(390, 80, 381, 191));
+        groupBox_7->setGeometry(QRect(380, 80, 381, 191));
         groupBox_7->setStyleSheet(QString::fromUtf8("font: 10pt \"Microsoft YaHei UI\";"));
         checkBox_31 = new QCheckBox(groupBox_7);
         checkBox_31->setObjectName(QString::fromUtf8("checkBox_31"));
@@ -790,13 +791,13 @@ public:
         comboBox_7->setObjectName(QString::fromUtf8("comboBox_7"));
         comboBox_7->setGeometry(QRect(180, 153, 190, 31));
         comboBox_7->setStyleSheet(QString::fromUtf8("font: 12pt \"Microsoft YaHei UI\";"));
+        checkBox_2 = new QCheckBox(tab_3);
+        checkBox_2->setObjectName(QString::fromUtf8("checkBox_2"));
+        checkBox_2->setGeometry(QRect(200, 210, 161, 48));
+        checkBox_2->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         tabWidget->addTab(tab_3, QString());
         tab_4 = new QWidget();
         tab_4->setObjectName(QString::fromUtf8("tab_4"));
-        checkBox_2 = new QCheckBox(tab_4);
-        checkBox_2->setObjectName(QString::fromUtf8("checkBox_2"));
-        checkBox_2->setGeometry(QRect(61, 32, 161, 48));
-        checkBox_2->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         checkBox_3 = new QCheckBox(tab_4);
         checkBox_3->setObjectName(QString::fromUtf8("checkBox_3"));
         checkBox_3->setGeometry(QRect(61, 82, 161, 48));
@@ -1206,6 +1207,10 @@ public:
         checkBox_27->setStyleSheet(QString::fromUtf8("font: 12pt \"Microsoft YaHei UI\";"));
         checkBox_27->setCheckable(true);
         checkBox_27->setChecked(false);
+        checkBox_35 = new QCheckBox(tab_4);
+        checkBox_35->setObjectName(QString::fromUtf8("checkBox_35"));
+        checkBox_35->setGeometry(QRect(61, 32, 161, 43));
+        checkBox_35->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         tabWidget->addTab(tab_4, QString());
         tab_5 = new QWidget();
         tab_5->setObjectName(QString::fromUtf8("tab_5"));
@@ -1568,7 +1573,7 @@ public:
 
         retranslateUi(Widget);
 
-        tabWidget->setCurrentIndex(1);
+        tabWidget->setCurrentIndex(0);
         comboBox_4->setCurrentIndex(0);
         comboBox_5->setCurrentIndex(0);
         comboBox_6->setCurrentIndex(0);
@@ -1584,7 +1589,7 @@ public:
 
     void retranslateUi(QWidget *Widget)
     {
-        Widget->setWindowTitle(QApplication::translate("Widget", "\346\244\215\347\211\251\345\244\247\346\210\230\345\203\265\345\260\270\346\235\202\344\272\244\347\211\210\344\277\256\346\224\271\345\231\250 V9.0 (\351\203\250\345\210\206\345\212\237\350\203\275\351\274\240\346\240\207\346\202\254\346\265\256\346\230\276\347\244\272\346\217\220\347\244\272)", nullptr));
+        Widget->setWindowTitle(QApplication::translate("Widget", "\346\244\215\347\211\251\345\244\247\346\210\230\345\203\265\345\260\270\346\235\202\344\272\244\347\211\210\344\277\256\346\224\271\345\231\250 V9.1 (\351\203\250\345\210\206\345\212\237\350\203\275\351\274\240\346\240\207\346\202\254\346\265\256\346\230\276\347\244\272\346\217\220\347\244\272)", nullptr));
         label->setText(QApplication::translate("Widget", "\346\234\252\345\217\221\347\216\260\346\270\270\346\210\217\350\277\233\347\250\213", nullptr));
         checkBox_7->setText(QApplication::translate("Widget", "\345\220\216\345\217\260\350\277\220\350\241\214", nullptr));
         checkBox_13->setText(QApplication::translate("Widget", "\346\227\240\350\247\206\350\277\267\351\233\276", nullptr));
@@ -2142,8 +2147,8 @@ public:
         comboBox_7->setItemText(123, QApplication::translate("Widget", "\345\257\222\345\206\260\350\217\207\347\216\213", nullptr));
         comboBox_7->setItemText(124, QApplication::translate("Widget", "\350\207\252\350\264\271\347\233\222\345\255\220", nullptr));
 
-        tabWidget->setTabText(tabWidget->indexOf(tab_3), QApplication::translate("Widget", "  \350\247\204\345\210\231\347\261\273\344\277\256\346\224\271  ", nullptr));
         checkBox_2->setText(QApplication::translate("Widget", "\346\227\240\351\234\200\345\206\267\345\215\264", nullptr));
+        tabWidget->setTabText(tabWidget->indexOf(tab_3), QApplication::translate("Widget", "  \350\247\204\345\210\231\347\261\273\344\277\256\346\224\271  ", nullptr));
         checkBox_3->setText(QApplication::translate("Widget", "\344\273\273\346\204\217\347\247\215\346\244\215", nullptr));
 #ifndef QT_NO_TOOLTIP
         checkBox_4->setToolTip(QApplication::translate("Widget", "<html><head/><body><p><span style=\" font-size:11pt;\">\345\255\220\345\274\271\345\217\257\347\251\277\351\200\217\344\270\224\346\257\217\345\270\247\351\200\240\346\210\220\344\270\200\346\254\241\344\274\244\345\256\263(\345\203\265\345\260\270\345\255\220\345\274\271\344\271\237\344\274\232\347\224\237\346\225\210)</span></p></body></html>", nullptr));
@@ -2191,9 +2196,9 @@ public:
         radioButton_22->setText(QApplication::translate("Widget", " \345\206\260\345\244\247\350\261\214\350\261\206", nullptr));
         radioButton_23->setText(QApplication::translate("Widget", " \345\207\217\351\200\237\345\206\260\345\210\272", nullptr));
 #ifndef QT_NO_TOOLTIP
-        checkBox_23->setToolTip(QApplication::translate("Widget", "<html><head/><body><p><span style=\" font-size:11pt;\">\345\255\220\345\274\271\345\217\257\347\251\277\351\200\217\344\270\224\346\257\217\345\270\247\351\200\240\346\210\220\344\270\200\346\254\241\344\274\244\345\256\263(\345\203\265\345\260\270\345\255\220\345\274\271\344\271\237\344\274\232\347\224\237\346\225\210)</span></p></body></html>", nullptr));
+        checkBox_23->setToolTip(QApplication::translate("Widget", "<html><head/><body><p><span style=\" font-size:11pt;\">\345\217\226\346\266\210\346\257\201\347\201\255\347\261\273\346\244\215\347\211\251\347\224\237\346\210\220\347\232\204\345\235\221\346\264\236 \345\205\263\351\227\255\346\257\201\347\201\255\347\261\273\346\244\215\347\211\251\351\224\200\346\257\201\345\220\214\346\240\274\346\244\215\347\211\251(\345\214\205\346\213\254\345\235\221\346\264\236\345\235\232\346\236\234)</span></p></body></html>", nullptr));
 #endif // QT_NO_TOOLTIP
-        checkBox_23->setText(QApplication::translate("Widget", "\346\240\270\347\210\206\346\227\240\345\235\221", nullptr));
+        checkBox_23->setText(QApplication::translate("Widget", "\345\217\226\346\266\210\345\235\221\346\264\236", nullptr));
 #ifndef QT_NO_TOOLTIP
         checkBox_28->setToolTip(QApplication::translate("Widget", "<html><head/><body><p><span style=\" font-size:11pt;\">\351\207\221\345\215\241\346\201\222\345\256\232\344\270\215\346\266\250\344\273\267</span></p></body></html>", nullptr));
 #endif // QT_NO_TOOLTIP
@@ -2463,6 +2468,10 @@ public:
 
         label_11->setText(QApplication::translate("Widget", "\346\250\241\344\273\277:", nullptr));
         checkBox_27->setText(QApplication::translate("Widget", "\345\205\250\345\261\217\347\247\215\346\244\215", nullptr));
+#ifndef QT_NO_TOOLTIP
+        checkBox_35->setToolTip(QApplication::translate("Widget", "<html><head/><body><p><span style=\" font-size:11pt;\">\347\252\235\347\223\234\347\261\273\346\244\215\347\211\251\350\267\263\350\265\267\345\220\216\345\234\250\345\216\237\344\275\215\347\275\256\345\206\215\347\224\237\346\210\220\344\270\200\345\217\252\347\252\235\347\223\234</span></p></body></html>", nullptr));
+#endif // QT_NO_TOOLTIP
+        checkBox_35->setText(QApplication::translate("Widget", "\347\252\235\347\223\234\345\244\215\345\210\266", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_4), QApplication::translate("Widget", "  \346\244\215\347\211\251\347\261\273\344\277\256\346\224\271  ", nullptr));
 #ifndef QT_NO_TOOLTIP
         checkBox_17->setToolTip(QApplication::translate("Widget", "<html><head/><body><p><span style=\" font-size:11pt;\">\346\260\224\347\220\203\345\203\265\345\260\270\345\207\272\345\234\272\345\220\216\350\207\252\347\210\206\350\207\252\346\260\224\347\220\203</span></p></body></html>", nullptr));
