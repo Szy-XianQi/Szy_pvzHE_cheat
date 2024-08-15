@@ -2067,7 +2067,7 @@ public:
 
         retranslateUi(Widget);
 
-        tabWidget->setCurrentIndex(2);
+        tabWidget->setCurrentIndex(0);
         comboBox_4->setCurrentIndex(0);
         comboBox_5->setCurrentIndex(0);
         comboBox_6->setCurrentIndex(0);
