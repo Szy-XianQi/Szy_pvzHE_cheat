@@ -22,9 +22,10 @@ FORMS += \
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
-RESOURCES +=
+RESOURCES += \
+    Szy_pvzHE_Cheats.qrc
 RC_ICONS = logo.ico
-VERSION = 9.1.0.0
+VERSION = 10.0.0.0
 RC_LANG = 0x0004
 QMAKE_TARGET_COPYRIGHT = "Copyright 2018-2023 The Szy_1222.All rights reserved"
-QMAKE_TARGET_PRODUCT = "Szy_Pvzz_CheatV9.1"
+QMAKE_TARGET_PRODUCT = "Szy_Pvzz_CheatV10.0"

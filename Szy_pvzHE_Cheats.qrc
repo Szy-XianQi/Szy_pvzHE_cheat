@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/QSS">
+        <file>Aqua.qss</file>
+    </qresource>
+</RCC>

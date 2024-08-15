@@ -1,5 +1,4 @@
 ﻿#include "widget.h"
-
 #include <QApplication>
 bool threadflag{true};
 void checkGame(Widget* tmpW){
@@ -23,6 +22,11 @@ void checkGame(Widget* tmpW){
 int main(int argc, char *argv[])
 {
     QApplication a(argc, argv);
+    QFile file(":/QSS/Aqua.qss");
+    file.open(QFile::ReadOnly);
+    QString qss = file.readAll();
+    file.close();
+    a.setStyleSheet(qss);
     Widget w;
     std::thread t1(checkGame,&w);
     w.show();

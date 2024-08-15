@@ -10,6 +10,7 @@
 #include <QUrl>
 #include<QRegExp>
 #include<QRegExpValidator>
+#include<QFile>
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class Widget;
@@ -31,6 +32,8 @@ public:
     void init();
     bool getFirst();
     void setFirst(bool toFitst);
+    bool ResumeThreadHandle(DWORD dwThreadId);
+    bool SuspendThreadHandle(DWORD dwThreadId);
 private slots:
     void on_checkBox_stateChanged(int arg1);
 
@@ -168,6 +171,28 @@ private slots:
 
     void on_checkBox_35_stateChanged(int arg1);
 
+    void on_pushButton_17_clicked();
+
+    void on_checkBox_36_stateChanged(int arg1);
+
+    void on_checkBox_37_stateChanged(int arg1);
+
+    void on_checkBox_40_stateChanged(int arg1);
+
+    void on_checkBox_41_stateChanged(int arg1);
+
+    void on_checkBox_43_stateChanged(int arg1);
+
+    void on_checkBox_45_stateChanged(int arg1);
+
+    void on_checkBox_38_stateChanged(int arg1);
+
+    void on_checkBox_39_stateChanged(int arg1);
+
+    void on_pushButton_18_clicked();
+
+    void on_checkBox_44_stateChanged(int arg1);
+
 private:
     Ui::Widget *ui;
     bool wxyg{false};
@@ -175,6 +200,7 @@ private:
     bool wxxk{false};
     HANDLE  GameProcessHandle{0};
     DWORD  GameProcessID{0};
+    HANDLE GameThread{0};
     HMODULE  GameHandle{0};
 };
 #endif // WIDGET_H

@@ -13,32 +13,32 @@
     <x>0</x>
     <y>0</y>
     <width>781</width>
-    <height>528</height>
+    <height>561</height>
    </rect>
   </property>
   <property name="minimumSize">
    <size>
     <width>781</width>
-    <height>528</height>
+    <height>561</height>
    </size>
   </property>
   <property name="maximumSize">
    <size>
     <width>781</width>
-    <height>528</height>
+    <height>561</height>
    </size>
   </property>
   <property name="windowTitle">
-   <string>植物大战僵尸杂交版修改器 V9.1 (部分功能鼠标悬浮显示提示)</string>
+   <string>植物大战僵尸杂交版修改器 V10.0 (部分功能鼠标悬浮显示提示)</string>
   </property>
   <property name="styleSheet">
-   <string notr="true"/>
+   <string notr="true">background-color:#ececec</string>
   </property>
   <widget class="QLabel" name="label">
    <property name="geometry">
     <rect>
      <x>0</x>
-     <y>496</y>
+     <y>530</y>
      <width>200</width>
      <height>29</height>
     </rect>
@@ -63,7 +63,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      <x>0</x>
      <y>0</y>
      <width>781</width>
-     <height>491</height>
+     <height>531</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -73,7 +73,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <set>Qt::ImhNone</set>
    </property>
    <property name="currentIndex">
-    <number>1</number>
+    <number>2</number>
    </property>
    <widget class="QWidget" name="tab_3">
     <attribute name="title">
@@ -134,7 +134,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>348</y>
+       <y>410</y>
        <width>180</width>
        <height>51</height>
       </rect>
@@ -150,7 +150,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      <property name="geometry">
       <rect>
        <x>270</x>
-       <y>290</y>
+       <y>340</y>
        <width>180</width>
        <height>51</height>
       </rect>
@@ -166,7 +166,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      <property name="geometry">
       <rect>
        <x>20</x>
-       <y>290</y>
+       <y>340</y>
        <width>180</width>
        <height>51</height>
       </rect>
@@ -221,14 +221,14 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <string notr="true">font: 20pt &quot;Microsoft YaHei UI&quot;;</string>
      </property>
      <property name="text">
-      <string>屏蔽冰道</string>
+      <string>取消冰道</string>
      </property>
     </widget>
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
        <x>270</x>
-       <y>348</y>
+       <y>410</y>
        <width>180</width>
        <height>51</height>
       </rect>
@@ -309,14 +309,16 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QGroupBox" name="groupBox">
      <property name="geometry">
       <rect>
-       <x>530</x>
-       <y>280</y>
+       <x>520</x>
+       <y>330</y>
        <width>181</width>
        <height>141</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;</string>
+      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;
+
+</string>
      </property>
      <property name="title">
       <string>游戏运行速度</string>
@@ -326,7 +328,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
        <rect>
         <x>12</x>
         <y>28</y>
-        <width>249</width>
+        <width>151</width>
         <height>29</height>
        </rect>
       </property>
@@ -348,7 +350,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
        <rect>
         <x>12</x>
         <y>99</y>
-        <width>249</width>
+        <width>151</width>
         <height>28</height>
        </rect>
       </property>
@@ -367,7 +369,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
        <rect>
         <x>12</x>
         <y>64</y>
-        <width>249</width>
+        <width>161</width>
         <height>28</height>
        </rect>
       </property>
@@ -432,11 +434,13 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
        <x>380</x>
        <y>80</y>
        <width>381</width>
-       <height>191</height>
+       <height>241</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;</string>
+      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;
+
+</string>
      </property>
      <property name="title">
       <string>随机物品锁定</string>
@@ -463,7 +467,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      <widget class="QComboBox" name="comboBox_4">
       <property name="geometry">
        <rect>
-        <x>180</x>
+        <x>182</x>
         <y>33</y>
         <width>190</width>
         <height>31</height>
@@ -882,7 +886,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       </item>
       <item>
        <property name="text">
-        <string>寒冰菇</string>
+        <string>寒光菇</string>
        </property>
       </item>
       <item>
@@ -1100,11 +1104,66 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
         <string>自费盒子</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>内卷投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>制冰豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>伪装的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>骄阳玉米投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒重塑者</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>棱镜向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>大王钢齿花</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销花盆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>天使向日葵</string>
+       </property>
+      </item>
      </widget>
      <widget class="QComboBox" name="comboBox_5">
       <property name="geometry">
        <rect>
-        <x>180</x>
+        <x>182</x>
         <y>73</y>
         <width>190</width>
         <height>31</height>
@@ -1523,7 +1582,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       </item>
       <item>
        <property name="text">
-        <string>寒冰菇</string>
+        <string>寒光菇</string>
        </property>
       </item>
       <item>
@@ -1741,6 +1800,61 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
         <string>自费盒子</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>内卷投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>制冰豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>伪装的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>骄阳玉米投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒重塑者</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>棱镜向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>大王钢齿花</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销花盆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>天使向日葵</string>
+       </property>
+      </item>
      </widget>
      <widget class="QCheckBox" name="checkBox_32">
       <property name="geometry">
@@ -1764,7 +1878,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      <widget class="QComboBox" name="comboBox_6">
       <property name="geometry">
        <rect>
-        <x>180</x>
+        <x>182</x>
         <y>113</y>
         <width>190</width>
         <height>31</height>
@@ -2183,7 +2297,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       </item>
       <item>
        <property name="text">
-        <string>寒冰菇</string>
+        <string>寒光菇</string>
        </property>
       </item>
       <item>
@@ -2401,6 +2515,61 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
         <string>自费盒子</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>内卷投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>制冰豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>伪装的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>骄阳玉米投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒重塑者</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>棱镜向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>大王钢齿花</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销花盆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>天使向日葵</string>
+       </property>
+      </item>
      </widget>
      <widget class="QCheckBox" name="checkBox_33">
       <property name="geometry">
@@ -2443,7 +2612,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      <widget class="QComboBox" name="comboBox_7">
       <property name="geometry">
        <rect>
-        <x>180</x>
+        <x>182</x>
         <y>153</y>
         <width>190</width>
         <height>31</height>
@@ -2862,7 +3031,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       </item>
       <item>
        <property name="text">
-        <string>寒冰菇</string>
+        <string>寒光菇</string>
        </property>
       </item>
       <item>
@@ -3080,6 +3249,776 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
         <string>自费盒子</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>内卷投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>制冰豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>伪装的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>骄阳玉米投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒重塑者</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>棱镜向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>大王钢齿花</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销花盆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>天使向日葵</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QComboBox" name="comboBox_10">
+      <property name="geometry">
+       <rect>
+        <x>182</x>
+        <y>193</y>
+        <width>190</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <item>
+       <property name="text">
+        <string>豌豆向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光炸弹</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>火炬坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光土豆雷</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰香蒲</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>大蒜花</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>双发仙人掌</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>小盆菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰瓜大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>墓碑埋雷者</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>红眼菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光胆小菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>雪花寒冰菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>魅惑毁灭菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆睡莲</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰菇窝瓜</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆许愿池</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>毁灭海草</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>樱桃辣椒</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>黄油地刺</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰矩树桩</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>高冰果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>六号路灯花</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆大炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>仙人三叶草</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>玉米卷香蒲</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>地刺杨桃</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁南瓜头</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>磁力坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>机枪卷心菜投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光花盆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>三线玉米投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>随机植物盒子</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>魅惑大蒜</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>咖啡伞</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>仙人三叶花</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>西瓜坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>汉堡射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光南瓜掌</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>黄油忧郁菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>西瓜香蒲</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光菇投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>金盏吸金磁</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>钢刺坚果王</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>毁灭加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>爆炸坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>巨大坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>火爆地雷</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>火爆坚果墙</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆香蒲</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰瓜香蒲</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>烈火南瓜头</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>僵尸豌豆射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰三叶草</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>热狗射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰仙人掌</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>影流窝瓜王</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>黄油joker</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>向日葵女王</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>大蒜辣椒</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>至尊VIP坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>僵尸坚果墙</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Cupid魅惑菇射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>财神金盏花</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>猫砂盆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>坑洞坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>QQ弹弹大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰地刺</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>土杨桃</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>精灵菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>川菜投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>坚果模仿者</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>窝瓜坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰冻坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>头脑风暴</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>宝藏吞噬者</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>全息卡牌投影</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>成长咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒光菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>骄阳豌豆射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>荧光木槌</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>狂野机枪射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>生命重塑者</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>双生樱桃</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>幸运四叶草</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>黄金向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>土豆加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>惩戒牢笼</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>备用物资</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>地刺大嘴花</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>僵尸豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>禁忌毁灭菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>消消乐糖果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海冰菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>莲叶壳</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>小猫向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>礼盒机</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>招财猫</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>水晶蜗牛</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>坚果存钱罐</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>吸金磁射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>钻石种子</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>抽奖盒子豪华版</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>炫彩杨桃</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>坚果保龄球</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>进化豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>流星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>苹果闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海豌豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆海草</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海洋星</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>套盒坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>鱼饵菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>花盆睡莲</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁菇投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>手上的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>医用咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>受伤的大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>黄金西瓜投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰菇王</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>自费盒子</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>内卷投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>制冰豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>伪装的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>骄阳玉米投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒重塑者</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>棱镜向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>大王钢齿花</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销花盆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>天使向日葵</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_37">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>183</y>
+        <width>171</width>
+        <height>48</height>
+       </rect>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>锁定自费盒子</string>
+      </property>
      </widget>
     </widget>
     <widget class="QCheckBox" name="checkBox_2">
@@ -3098,6 +4037,44 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <string>无需冷却</string>
      </property>
     </widget>
+    <widget class="QCheckBox" name="checkBox_28">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>270</y>
+       <width>161</width>
+       <height>42</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;金卡恒定不涨价&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Microsoft YaHei UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>金卡恒定</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_23">
+     <property name="geometry">
+      <rect>
+       <x>200</x>
+       <y>270</y>
+       <width>161</width>
+       <height>42</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;取消毁灭类植物生成的坑洞 关闭毁灭类植物销毁同格植物(包括坑洞坚果)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Microsoft YaHei UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>取消坑洞</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QWidget" name="tab_4">
     <attribute name="title">
@@ -3106,10 +4083,10 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_3">
      <property name="geometry">
       <rect>
-       <x>61</x>
-       <y>82</y>
+       <x>40</x>
+       <y>80</y>
        <width>161</width>
-       <height>48</height>
+       <height>50</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -3122,10 +4099,10 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_4">
      <property name="geometry">
       <rect>
-       <x>61</x>
-       <y>131</y>
+       <x>40</x>
+       <y>140</y>
        <width>161</width>
-       <height>48</height>
+       <height>50</height>
       </rect>
      </property>
      <property name="toolTip">
@@ -3141,10 +4118,10 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_5">
      <property name="geometry">
       <rect>
-       <x>61</x>
-       <y>180</y>
+       <x>40</x>
+       <y>200</y>
        <width>161</width>
-       <height>48</height>
+       <height>50</height>
       </rect>
      </property>
      <property name="toolTip">
@@ -3160,10 +4137,10 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_9">
      <property name="geometry">
       <rect>
-       <x>251</x>
-       <y>32</y>
+       <x>230</x>
+       <y>20</y>
        <width>161</width>
-       <height>43</height>
+       <height>50</height>
       </rect>
      </property>
      <property name="toolTip">
@@ -3179,10 +4156,10 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_16">
      <property name="geometry">
       <rect>
-       <x>251</x>
-       <y>82</y>
+       <x>230</x>
+       <y>80</y>
        <width>161</width>
-       <height>42</height>
+       <height>50</height>
       </rect>
      </property>
      <property name="toolTip">
@@ -3201,10 +4178,10 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_6">
      <property name="geometry">
       <rect>
-       <x>61</x>
-       <y>230</y>
+       <x>40</x>
+       <y>260</y>
        <width>161</width>
-       <height>48</height>
+       <height>50</height>
       </rect>
      </property>
      <property name="styleSheet">
@@ -3217,10 +4194,10 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_11">
      <property name="geometry">
       <rect>
-       <x>251</x>
-       <y>230</y>
+       <x>230</x>
+       <y>200</y>
        <width>161</width>
-       <height>42</height>
+       <height>50</height>
       </rect>
      </property>
      <property name="toolTip">
@@ -3236,10 +4213,10 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_15">
      <property name="geometry">
       <rect>
-       <x>61</x>
-       <y>279</y>
+       <x>40</x>
+       <y>320</y>
        <width>161</width>
-       <height>48</height>
+       <height>50</height>
       </rect>
      </property>
      <property name="toolTip">
@@ -3255,10 +4232,10 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_20">
      <property name="geometry">
       <rect>
-       <x>251</x>
-       <y>180</y>
+       <x>230</x>
+       <y>140</y>
        <width>161</width>
-       <height>43</height>
+       <height>50</height>
       </rect>
      </property>
      <property name="toolTip">
@@ -3275,7 +4252,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      <property name="geometry">
       <rect>
        <x>80</x>
-       <y>360</y>
+       <y>400</y>
        <width>310</width>
        <height>51</height>
       </rect>
@@ -3291,16 +4268,18 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      <property name="geometry">
       <rect>
        <x>440</x>
-       <y>32</y>
+       <y>70</y>
        <width>311</width>
        <height>171</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;</string>
+      <string notr="true">
+font: 10pt &quot;Microsoft YaHei UI&quot;;
+</string>
      </property>
      <property name="title">
-      <string>阳光菇投掷物</string>
+      <string>修改阳光菇投掷物</string>
      </property>
      <widget class="QRadioButton" name="radioButton_16">
       <property name="geometry">
@@ -3376,7 +4355,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
        <rect>
         <x>173</x>
         <y>99</y>
-        <width>151</width>
+        <width>131</width>
         <height>28</height>
        </rect>
       </property>
@@ -3414,7 +4393,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
        <rect>
         <x>173</x>
         <y>28</y>
-        <width>151</width>
+        <width>131</width>
         <height>28</height>
        </rect>
       </property>
@@ -3436,7 +4415,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
        <rect>
         <x>173</x>
         <y>64</y>
-        <width>151</width>
+        <width>131</width>
         <height>28</height>
        </rect>
       </property>
@@ -3455,7 +4434,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
        <rect>
         <x>173</x>
         <y>134</y>
-        <width>151</width>
+        <width>131</width>
         <height>28</height>
        </rect>
       </property>
@@ -3470,55 +4449,19 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       </property>
      </widget>
     </widget>
-    <widget class="QCheckBox" name="checkBox_23">
-     <property name="geometry">
-      <rect>
-       <x>251</x>
-       <y>131</y>
-       <width>161</width>
-       <height>42</height>
-      </rect>
-     </property>
-     <property name="toolTip">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;取消毁灭类植物生成的坑洞 关闭毁灭类植物销毁同格植物(包括坑洞坚果)&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">font: 20pt &quot;Microsoft YaHei UI&quot;;</string>
-     </property>
-     <property name="text">
-      <string>取消坑洞</string>
-     </property>
-    </widget>
-    <widget class="QCheckBox" name="checkBox_28">
-     <property name="geometry">
-      <rect>
-       <x>251</x>
-       <y>279</y>
-       <width>161</width>
-       <height>42</height>
-      </rect>
-     </property>
-     <property name="toolTip">
-      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;金卡恒定不涨价&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
-     </property>
-     <property name="styleSheet">
-      <string notr="true">font: 20pt &quot;Microsoft YaHei UI&quot;;</string>
-     </property>
-     <property name="text">
-      <string>金卡恒定</string>
-     </property>
-    </widget>
     <widget class="QGroupBox" name="groupBox_4">
      <property name="geometry">
       <rect>
        <x>460</x>
-       <y>210</y>
+       <y>250</y>
        <width>271</width>
        <height>211</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;</string>
+      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;
+
+</string>
      </property>
      <property name="title">
       <string>手动生成植物</string>
@@ -4046,7 +4989,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       </item>
       <item>
        <property name="text">
-        <string>寒冰菇</string>
+        <string>寒光菇</string>
        </property>
       </item>
       <item>
@@ -4262,6 +5205,61 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <item>
        <property name="text">
         <string>自费盒子</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>内卷投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>制冰豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>伪装的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>骄阳玉米投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒重塑者</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>棱镜向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>大王钢齿花</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销花盆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>天使向日葵</string>
        </property>
       </item>
       <item>
@@ -4700,7 +5698,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       </item>
       <item>
        <property name="text">
-        <string>寒冰菇</string>
+        <string>寒光菇</string>
        </property>
       </item>
       <item>
@@ -4920,6 +5918,61 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       </item>
       <item>
        <property name="text">
+        <string>内卷投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>制冰豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>伪装的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>骄阳玉米投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒重塑者</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>棱镜向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>大王钢齿花</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销花盆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>天使向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
         <string>呼叫网管</string>
        </property>
       </item>
@@ -4944,9 +5997,9 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <property name="geometry">
        <rect>
         <x>130</x>
-        <y>150</y>
+        <y>160</y>
         <width>120</width>
-        <height>51</height>
+        <height>41</height>
        </rect>
       </property>
       <property name="sizePolicy">
@@ -4983,10 +6036,10 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_35">
      <property name="geometry">
       <rect>
-       <x>61</x>
-       <y>32</y>
+       <x>40</x>
+       <y>20</y>
        <width>161</width>
-       <height>43</height>
+       <height>50</height>
       </rect>
      </property>
      <property name="toolTip">
@@ -4999,6 +6052,82 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <string>窝瓜复制</string>
      </property>
     </widget>
+    <widget class="QCheckBox" name="checkBox_40">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>260</y>
+       <width>161</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;头脑风暴范围修改为全屏&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Microsoft YaHei UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>带土神力</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_41">
+     <property name="geometry">
+      <rect>
+       <x>230</x>
+       <y>320</y>
+       <width>161</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;蘑菇类植物不再睡觉&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Microsoft YaHei UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>无需唤醒</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_43">
+     <property name="geometry">
+      <rect>
+       <x>420</x>
+       <y>20</y>
+       <width>161</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;使植物不会被压扁&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Microsoft YaHei UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>避免压扁</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_45">
+     <property name="geometry">
+      <rect>
+       <x>610</x>
+       <y>20</y>
+       <width>161</width>
+       <height>50</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;自费盒子开出植物后不再收费&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Microsoft YaHei UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>零费白盒</string>
+     </property>
+    </widget>
    </widget>
    <widget class="QWidget" name="tab_5">
     <attribute name="title">
@@ -5007,8 +6136,8 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_17">
      <property name="geometry">
       <rect>
-       <x>220</x>
-       <y>26</y>
+       <x>50</x>
+       <y>10</y>
        <width>161</width>
        <height>48</height>
       </rect>
@@ -5026,8 +6155,8 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_19">
      <property name="geometry">
       <rect>
-       <x>220</x>
-       <y>290</y>
+       <x>250</x>
+       <y>10</y>
        <width>161</width>
        <height>48</height>
       </rect>
@@ -5045,8 +6174,8 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_18">
      <property name="geometry">
       <rect>
-       <x>220</x>
-       <y>92</y>
+       <x>50</x>
+       <y>80</y>
        <width>161</width>
        <height>48</height>
       </rect>
@@ -5061,8 +6190,8 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_14">
      <property name="geometry">
       <rect>
-       <x>220</x>
-       <y>158</y>
+       <x>250</x>
+       <y>80</y>
        <width>161</width>
        <height>48</height>
       </rect>
@@ -5083,8 +6212,8 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QCheckBox" name="checkBox_10">
      <property name="geometry">
       <rect>
-       <x>220</x>
-       <y>224</y>
+       <x>50</x>
+       <y>150</y>
        <width>161</width>
        <height>48</height>
       </rect>
@@ -5099,9 +6228,9 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QPushButton" name="pushButton_10">
      <property name="geometry">
       <rect>
-       <x>440</x>
-       <y>277</y>
-       <width>141</width>
+       <x>240</x>
+       <y>300</y>
+       <width>160</width>
        <height>51</height>
       </rect>
      </property>
@@ -5115,9 +6244,9 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QPushButton" name="pushButton_3">
      <property name="geometry">
       <rect>
-       <x>440</x>
-       <y>117</y>
-       <width>141</width>
+       <x>40</x>
+       <y>370</y>
+       <width>160</width>
        <height>51</height>
       </rect>
      </property>
@@ -5149,9 +6278,9 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QPushButton" name="pushButton_4">
      <property name="geometry">
       <rect>
-       <x>440</x>
-       <y>37</y>
-       <width>141</width>
+       <x>40</x>
+       <y>300</y>
+       <width>160</width>
        <height>51</height>
       </rect>
      </property>
@@ -5165,9 +6294,9 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QPushButton" name="pushButton_9">
      <property name="geometry">
       <rect>
-       <x>440</x>
-       <y>197</y>
-       <width>141</width>
+       <x>240</x>
+       <y>370</y>
+       <width>160</width>
        <height>51</height>
       </rect>
      </property>
@@ -5182,13 +6311,13 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      <property name="geometry">
       <rect>
        <x>30</x>
-       <y>380</y>
+       <y>440</y>
        <width>230</width>
        <height>29</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(170, 0, 0);
+      <string notr="true">color:rgb(0,122,244);
 font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      </property>
      <property name="text">
@@ -5202,13 +6331,13 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      <property name="geometry">
       <rect>
        <x>580</x>
-       <y>380</y>
+       <y>440</y>
        <width>230</width>
        <height>29</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">color: rgb(170, 0, 0);
+      <string notr="true">color: rgb(0,122,244);
 font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      </property>
      <property name="text">
@@ -5216,6 +6345,895 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      </property>
      <property name="textFormat">
       <enum>Qt::AutoText</enum>
+     </property>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_9">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>50</y>
+       <width>267</width>
+       <height>181</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;
+
+</string>
+     </property>
+     <property name="title">
+      <string>手动生成僵尸</string>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_12">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>40</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_23">
+      <property name="geometry">
+       <rect>
+        <x>13</x>
+        <y>40</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>行:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_17">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>130</y>
+        <width>100</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>O  K</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_13">
+      <property name="geometry">
+       <rect>
+        <x>220</x>
+        <y>40</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>9</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_24">
+      <property name="geometry">
+       <rect>
+        <x>183</x>
+        <y>40</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>列:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_25">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>80</y>
+        <width>60</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>僵尸:</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_8">
+      <property name="geometry">
+       <rect>
+        <x>67</x>
+        <y>80</y>
+        <width>190</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <item>
+       <property name="text">
+        <string>普通僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>摇旗僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>路障僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>撑杆僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>铁桶僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>读报冰车僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>铁栅门僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>暗黑橄榄僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>武装舞王僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>伴舞僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>鸭子救生圈僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>潜水僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>雪橇车僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>雪橇僵尸小队</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海豚豌豆骑士</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>玩偶匣僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>气球舞王僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>黑橄榄矿工僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>跳跳僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>僵尸雪人</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>蹦极僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>扶梯僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>投手僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>武装加刚特尔</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>小鬼僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>戴夫博士</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>坚果僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒樱桃僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>机枪豌豆僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰菇窝瓜僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>高冰果僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>红眼武装加刚特尔</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>迪斯科僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>舞者僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>骷髅僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>死灵法师僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>火焰迪斯科僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>火焰舞者僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>小黄鸭僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>床车僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>小摔哥僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冲锋橄榄加刚特尔</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冲锋橄榄小鬼僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>矿工雪人僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>狂野机枪僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>火炬坚果僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>机枪撑杆僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>机枪海豚僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>僵尸坚果伽刚特尔</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>僵尸豌豆小鬼僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>鲨鱼僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰射手僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海妖僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>缠绕潜水僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>钻石僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>防爆门僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>骑鸭僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>小推车小鬼僵尸</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_42">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>130</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>魅惑</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QGroupBox" name="groupBox_10">
+     <property name="geometry">
+      <rect>
+       <x>450</x>
+       <y>300</y>
+       <width>267</width>
+       <height>121</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;
+
+</string>
+     </property>
+     <property name="title">
+      <string>锁定出怪为指定僵尸</string>
+     </property>
+     <widget class="QLabel" name="label_28">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>40</y>
+        <width>60</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>僵尸:</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_9">
+      <property name="geometry">
+       <rect>
+        <x>67</x>
+        <y>40</y>
+        <width>190</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <item>
+       <property name="text">
+        <string>普通僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>摇旗僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>路障僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>撑杆僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>铁桶僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>读报冰车僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>铁栅门僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>暗黑橄榄僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>武装舞王僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>伴舞僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>鸭子救生圈僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>潜水僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>雪橇车僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>雪橇僵尸小队</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海豚豌豆骑士</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>玩偶匣僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>气球舞王僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>黑橄榄矿工僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>跳跳僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>僵尸雪人</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>蹦极僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>扶梯僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>投手僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>武装加刚特尔</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>小鬼僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>戴夫博士</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>坚果僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒樱桃僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>机枪豌豆僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰菇窝瓜僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>高冰果僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>红眼武装加刚特尔</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>迪斯科僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>舞者僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>骷髅僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>死灵法师僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>火焰迪斯科僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>火焰舞者僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>小黄鸭僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>床车僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>小摔哥僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冲锋橄榄加刚特尔</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冲锋橄榄小鬼僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>矿工雪人僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>狂野机枪僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>火炬坚果僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>机枪撑杆僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>机枪海豚僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>僵尸坚果伽刚特尔</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>僵尸豌豆小鬼僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>鲨鱼僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>寒冰射手僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>海妖僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>缠绕潜水僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>钻石僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>防爆门僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>骑鸭僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>小推车小鬼僵尸</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_36">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>80</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <family>Microsoft YaHei UI</family>
+        <pointsize>12</pointsize>
+        <italic>false</italic>
+        <bold>false</bold>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;
+</string>
+      </property>
+      <property name="text">
+       <string>锁定</string>
+      </property>
+      <property name="checkable">
+       <bool>true</bool>
+      </property>
+      <property name="checked">
+       <bool>false</bool>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_38">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>150</y>
+       <width>161</width>
+       <height>48</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;全包头盔僵尸不再拥有控制抗性&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Microsoft YaHei UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>屏蔽免控</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_39">
+     <property name="geometry">
+      <rect>
+       <x>50</x>
+       <y>220</y>
+       <width>161</width>
+       <height>48</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;防爆门僵尸不再拥有爆炸抗性&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Microsoft YaHei UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>屏蔽防爆</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_44">
+     <property name="geometry">
+      <rect>
+       <x>250</x>
+       <y>220</y>
+       <width>161</width>
+       <height>48</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:11pt;&quot;&gt;僵尸索敌自己 自己啃咬自己&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Microsoft YaHei UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>僵尸自残</string>
      </property>
     </widget>
    </widget>
@@ -5226,14 +7244,16 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QGroupBox" name="groupBox_3">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>140</y>
+       <x>50</x>
+       <y>160</y>
        <width>271</width>
        <height>151</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;</string>
+      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;
+
+</string>
      </property>
      <property name="title">
       <string>更改货币数量</string>
@@ -5387,7 +7407,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      <property name="geometry">
       <rect>
        <x>380</x>
-       <y>80</y>
+       <y>30</y>
        <width>371</width>
        <height>281</height>
       </rect>
@@ -5583,7 +7603,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
        <rect>
         <x>240</x>
         <y>140</y>
-        <width>131</width>
+        <width>130</width>
         <height>51</height>
        </rect>
       </property>
@@ -5668,14 +7688,15 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QGroupBox" name="groupBox_6">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>10</y>
+       <x>50</x>
+       <y>20</y>
        <width>271</width>
        <height>121</height>
       </rect>
      </property>
      <property name="styleSheet">
-      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;</string>
+      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;
+</string>
      </property>
      <property name="title">
       <string>卡槽修改</string>
@@ -6166,7 +8187,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       </item>
       <item>
        <property name="text">
-        <string>寒冰菇</string>
+        <string>寒光菇</string>
        </property>
       </item>
       <item>
@@ -6384,13 +8405,68 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
         <string>自费盒子</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>内卷投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>制冰豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>伪装的向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>骄阳玉米投手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒重塑者</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>棱镜向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>大王钢齿花</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>促销花盆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>天使向日葵</string>
+       </property>
+      </item>
      </widget>
      <widget class="QLabel" name="label_19">
       <property name="geometry">
        <rect>
         <x>90</x>
         <y>40</y>
-        <width>61</width>
+        <width>50</width>
         <height>31</height>
        </rect>
       </property>
@@ -6405,8 +8481,8 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QGroupBox" name="groupBox_8">
      <property name="geometry">
       <rect>
-       <x>40</x>
-       <y>300</y>
+       <x>50</x>
+       <y>320</y>
        <width>271</width>
        <height>131</height>
       </rect>
@@ -6498,13 +8574,109 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       </property>
      </widget>
     </widget>
+    <widget class="QGroupBox" name="groupBox_11">
+     <property name="geometry">
+      <rect>
+       <x>440</x>
+       <y>320</y>
+       <width>271</width>
+       <height>131</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 10pt &quot;Microsoft YaHei UI&quot;;</string>
+     </property>
+     <property name="title">
+      <string>生成墓碑</string>
+     </property>
+     <widget class="QLineEdit" name="lineEdit_14">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>40</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_26">
+      <property name="geometry">
+       <rect>
+        <x>33</x>
+        <y>40</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>行:</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_18">
+      <property name="geometry">
+       <rect>
+        <x>80</x>
+        <y>90</y>
+        <width>100</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>OK</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_27">
+      <property name="geometry">
+       <rect>
+        <x>173</x>
+        <y>40</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>列:</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_15">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>40</y>
+        <width>31</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">font: 12pt &quot;Microsoft YaHei UI&quot;;</string>
+      </property>
+      <property name="text">
+       <string>1</string>
+      </property>
+     </widget>
+    </widget>
    </widget>
   </widget>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
      <x>700</x>
-     <y>496</y>
+     <y>530</y>
      <width>101</width>
      <height>31</height>
     </rect>
@@ -6519,8 +8691,8 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
   <widget class="QLabel" name="label_13">
    <property name="geometry">
     <rect>
-     <x>370</x>
-     <y>496</y>
+     <x>340</x>
+     <y>530</y>
      <width>101</width>
      <height>31</height>
     </rect>
