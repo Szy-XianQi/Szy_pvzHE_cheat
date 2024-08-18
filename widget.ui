@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>植物大战僵尸杂交版修改器 V10.0 (部分功能鼠标悬浮显示提示)</string>
+   <string>植物大战僵尸杂交版修改器 V10.1 (部分功能鼠标悬浮显示提示)</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color:#ececec</string>
@@ -8675,7 +8675,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
   <widget class="QLabel" name="label_4">
    <property name="geometry">
     <rect>
-     <x>700</x>
+     <x>420</x>
      <y>530</y>
      <width>101</width>
      <height>31</height>
@@ -8691,7 +8691,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
   <widget class="QLabel" name="label_13">
    <property name="geometry">
     <rect>
-     <x>340</x>
+     <x>290</x>
      <y>530</y>
      <width>101</width>
      <height>31</height>
@@ -8702,6 +8702,22 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
    </property>
    <property name="text">
     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;a href=&quot;https://space.bilibili.com/393283655&quot;&gt;&lt;span style=&quot; font-size:14pt; font-weight:700; text-decoration: underline; color:#007af4;font-family:SIMHEI&quot;&gt;BiliBili&lt;/span&gt;&lt;/a&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_19">
+   <property name="geometry">
+    <rect>
+     <x>663</x>
+     <y>530</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: &quot;Microsoft YaHei UI&quot;;</string>
+   </property>
+   <property name="text">
+    <string>更新内容</string>
    </property>
   </widget>
  </widget>

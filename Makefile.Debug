@@ -11,13 +11,13 @@ MAKEFILE      = Makefile.Debug
 
 CC            = cl
 CXX           = cl
-DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_CORE_LIB
+DEFINES       = -DUNICODE -D_UNICODE -DWIN32 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -DQT_WIDGETS_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_CORE_LIB
 CFLAGS        = -nologo -Zc:wchar_t -FS -Zc:strictStrings -Zi -MTd -W3 -w44456 -w44457 -w44458 /Fddebug\Szy_pvzHE_Cheats.vc.pdb $(DEFINES)
 CXXFLAGS      = -nologo -Zc:wchar_t -FS -Zc:rvalueCast -Zc:inline -Zc:strictStrings -Zc:throwingNew -Zc:referenceBinding -Zc:__cplusplus -Zi -MTd -std:c++17 -W3 -w34100 -w34189 -w44996 -w44456 -w44457 -w44458 -wd4577 -wd4467 -EHsc /Fddebug\Szy_pvzHE_Cheats.vc.pdb $(DEFINES)
-INCPATH       = -I. -IC:\Qt\6.5.3\5.12.0-static\include -IC:\Qt\6.5.3\5.12.0-static\include\QtWidgets -IC:\Qt\6.5.3\5.12.0-static\include\QtGui -IC:\Qt\6.5.3\5.12.0-static\include\QtCore -Idebug -I. -IC:\Qt\6.5.3\5.12.0-static\mkspecs\win32-msvc 
+INCPATH       = -I. -IC:\Qt\6.5.3\5.12.0-static\include -IC:\Qt\6.5.3\5.12.0-static\include\QtWidgets -IC:\Qt\6.5.3\5.12.0-static\include\QtGui -IC:\Qt\6.5.3\5.12.0-static\include\QtNetwork -IC:\Qt\6.5.3\5.12.0-static\include\QtCore -Idebug -I. -IC:\Qt\6.5.3\5.12.0-static\mkspecs\win32-msvc 
 LINKER        = link
-LFLAGS        = /NOLOGO /DYNAMICBASE /NXCOMPAT /DEBUG /SUBSYSTEM:WINDOWS "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" /VERSION:10.0
-LIBS          = /LIBPATH:C:\Qt\6.5.3\5.12.0-static\plugins\styles qwindowsvistastyled.lib /LIBPATH:C:\Qt\6.5.3\5.12.0-static\plugins\platforms qwindowsd.lib /LIBPATH:C:\Qt\6.5.3\5.12.0-static\plugins\imageformats qgifd.lib qicnsd.lib qicod.lib qjpegd.lib qtgad.lib qtiffd.lib qwbmpd.lib qwebpd.lib /LIBPATH:C:\Qt\6.5.3\5.12.0-static\lib Qt5Widgetsd.lib Qt5Guid.lib Qt5Cored.lib debug\Szy_pvzHE_Cheats_resource.res  glu32.lib opengl32.lib gdi32.lib user32.lib qtmaind.lib 
+LFLAGS        = /NOLOGO /DYNAMICBASE /NXCOMPAT /DEBUG /SUBSYSTEM:WINDOWS "/MANIFESTDEPENDENCY:type='win32' name='Microsoft.Windows.Common-Controls' version='6.0.0.0' publicKeyToken='6595b64144ccf1df' language='*' processorArchitecture='*'" /VERSION:10.1
+LIBS          = /LIBPATH:C:\Qt\6.5.3\5.12.0-static\plugins\styles qwindowsvistastyled.lib /LIBPATH:C:\Qt\6.5.3\5.12.0-static\plugins\platforms qwindowsd.lib /LIBPATH:C:\Qt\6.5.3\5.12.0-static\plugins\imageformats qgifd.lib qicnsd.lib qicod.lib qjpegd.lib qtgad.lib qtiffd.lib qwbmpd.lib qwebpd.lib /LIBPATH:C:\Qt\6.5.3\5.12.0-static\plugins\bearer qgenericbearerd.lib /LIBPATH:C:\Qt\6.5.3\5.12.0-static\lib Qt5Widgetsd.lib Qt5Guid.lib Qt5Networkd.lib Qt5Cored.lib debug\Szy_pvzHE_Cheats_resource.res  glu32.lib opengl32.lib gdi32.lib user32.lib qtmaind.lib 
 QMAKE         = C:\Qt\6.5.3\5.12.0-static\bin\qmake.exe
 IDC           = idc
 IDL           = midl /NOLOGO
@@ -131,7 +131,7 @@ DESTDIR_TARGET = debug\Szy_pvzHE_Cheats.exe
 first: all
 all: Makefile.Debug  debug\Szy_pvzHE_Cheats.exe
 
-debug\Szy_pvzHE_Cheats.exe: C:\Qt\6.5.3\5.12.0-static\lib\Qt5Widgetsd.lib C:\Qt\6.5.3\5.12.0-static\lib\Qt5Guid.lib C:\Qt\6.5.3\5.12.0-static\lib\Qt5Cored.lib ui_widget.h $(OBJECTS) debug\Szy_pvzHE_Cheats_resource.res
+debug\Szy_pvzHE_Cheats.exe: C:\Qt\6.5.3\5.12.0-static\lib\Qt5Widgetsd.lib C:\Qt\6.5.3\5.12.0-static\lib\Qt5Guid.lib C:\Qt\6.5.3\5.12.0-static\lib\Qt5Networkd.lib C:\Qt\6.5.3\5.12.0-static\lib\Qt5Cored.lib ui_widget.h $(OBJECTS) debug\Szy_pvzHE_Cheats_resource.res
 	$(LINKER) $(LFLAGS) /MANIFEST:embed /OUT:$(DESTDIR_TARGET) @<<
 debug\main.obj debug\widget.obj debug\szy_pvzhe_cheats_plugin_import.obj debug\qrc_Szy_pvzHE_Cheats.obj debug\moc_widget.obj
 $(LIBS)
@@ -302,10 +302,13 @@ debug\moc_widget.cpp: C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\QWidget \
 		C:\Qt\6.5.3\5.12.0-static\include\QtGui\qvalidator.h \
 		C:\Qt\6.5.3\5.12.0-static\include\QtCore\qregularexpression.h \
 		C:\Qt\6.5.3\5.12.0-static\include\QtCore\QFile \
+		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\QMessageBox \
+		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qmessagebox.h \
+		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qdialog.h \
 		widget.h \
 		debug\moc_predefs.h \
 		C:\Qt\6.5.3\5.12.0-static\bin\moc.exe
-	C:\Qt\6.5.3\5.12.0-static\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/Project/Qt/Szy_pvzHE_Cheats/debug/moc_predefs.h -IC:/Qt/6.5.3/5.12.0-static/mkspecs/win32-msvc -ID:/Project/Qt/Szy_pvzHE_Cheats -IC:/Qt/6.5.3/5.12.0-static/include -IC:/Qt/6.5.3/5.12.0-static/include/QtWidgets -IC:/Qt/6.5.3/5.12.0-static/include/QtGui -IC:/Qt/6.5.3/5.12.0-static/include/QtCore -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\cppwinrt" widget.h -o debug\moc_widget.cpp
+	C:\Qt\6.5.3\5.12.0-static\bin\moc.exe $(DEFINES) --compiler-flavor=msvc --include D:/Project/Qt/Szy_pvzHE_Cheats/debug/moc_predefs.h -IC:/Qt/6.5.3/5.12.0-static/mkspecs/win32-msvc -ID:/Project/Qt/Szy_pvzHE_Cheats -IC:/Qt/6.5.3/5.12.0-static/include -IC:/Qt/6.5.3/5.12.0-static/include/QtWidgets -IC:/Qt/6.5.3/5.12.0-static/include/QtGui -IC:/Qt/6.5.3/5.12.0-static/include/QtNetwork -IC:/Qt/6.5.3/5.12.0-static/include/QtCore -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\ATLMFC\include" -I"C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\include" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\ucrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\shared" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\um" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\winrt" -I"C:\Program Files (x86)\Windows Kits\10\include\10.0.22621.0\cppwinrt" widget.h -o debug\moc_widget.cpp
 
 compiler_moc_objc_header_make_all:
 compiler_moc_objc_header_clean:
@@ -443,6 +446,9 @@ debug\main.obj: main.cpp widget.h \
 		C:\Qt\6.5.3\5.12.0-static\include\QtGui\qvalidator.h \
 		C:\Qt\6.5.3\5.12.0-static\include\QtCore\qregularexpression.h \
 		C:\Qt\6.5.3\5.12.0-static\include\QtCore\QFile \
+		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\QMessageBox \
+		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qmessagebox.h \
+		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qdialog.h \
 		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\QApplication \
 		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qapplication.h \
 		C:\Qt\6.5.3\5.12.0-static\include\QtCore\qcoreapplication.h \
@@ -564,6 +570,9 @@ debug\widget.obj: widget.cpp widget.h \
 		C:\Qt\6.5.3\5.12.0-static\include\QtGui\qvalidator.h \
 		C:\Qt\6.5.3\5.12.0-static\include\QtCore\qregularexpression.h \
 		C:\Qt\6.5.3\5.12.0-static\include\QtCore\QFile \
+		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\QMessageBox \
+		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qmessagebox.h \
+		C:\Qt\6.5.3\5.12.0-static\include\QtWidgets\qdialog.h \
 		ui_widget.h
 
 debug\szy_pvzhe_cheats_plugin_import.obj: D:/Project/Qt/Szy_pvzHE_Cheats/szy_pvzhe_cheats_plugin_import.cpp 

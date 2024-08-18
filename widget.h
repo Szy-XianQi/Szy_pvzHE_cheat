@@ -2,15 +2,16 @@
 #define WIDGET_H
 
 #include <QWidget>
-#include<thread>
-#include<windows.h>
+#include <thread>
+#include <windows.h>
 #include <tlhelp32.h>
 #include <Psapi.h>
 #include <QDesktopServices>
 #include <QUrl>
-#include<QRegExp>
-#include<QRegExpValidator>
-#include<QFile>
+#include <QRegExp>
+#include <QRegExpValidator>
+#include <QFile>
+#include <QMessageBox>
 QT_BEGIN_NAMESPACE
 namespace Ui {
 class Widget;
@@ -192,6 +193,8 @@ private slots:
     void on_pushButton_18_clicked();
 
     void on_checkBox_44_stateChanged(int arg1);
+
+    void on_pushButton_19_clicked();
 
 private:
     Ui::Widget *ui;

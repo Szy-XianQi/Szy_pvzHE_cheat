@@ -171,6 +171,7 @@ public:
     QLineEdit *lineEdit_15;
     QLabel *label_4;
     QLabel *label_13;
+    QPushButton *pushButton_19;
 
     void setupUi(QWidget *Widget)
     {
@@ -2058,12 +2059,16 @@ public:
         tabWidget->addTab(tab, QString());
         label_4 = new QLabel(Widget);
         label_4->setObjectName(QString::fromUtf8("label_4"));
-        label_4->setGeometry(QRect(700, 530, 101, 31));
+        label_4->setGeometry(QRect(420, 530, 101, 31));
         label_4->setStyleSheet(QString::fromUtf8(""));
         label_13 = new QLabel(Widget);
         label_13->setObjectName(QString::fromUtf8("label_13"));
-        label_13->setGeometry(QRect(340, 530, 101, 31));
+        label_13->setGeometry(QRect(290, 530, 101, 31));
         label_13->setStyleSheet(QString::fromUtf8(""));
+        pushButton_19 = new QPushButton(Widget);
+        pushButton_19->setObjectName(QString::fromUtf8("pushButton_19"));
+        pushButton_19->setGeometry(QRect(663, 530, 111, 31));
+        pushButton_19->setStyleSheet(QString::fromUtf8("font: \"Microsoft YaHei UI\";"));
 
         retranslateUi(Widget);
 
@@ -2086,7 +2091,7 @@ public:
 
     void retranslateUi(QWidget *Widget)
     {
-        Widget->setWindowTitle(QApplication::translate("Widget", "\346\244\215\347\211\251\345\244\247\346\210\230\345\203\265\345\260\270\346\235\202\344\272\244\347\211\210\344\277\256\346\224\271\345\231\250 V10.0 (\351\203\250\345\210\206\345\212\237\350\203\275\351\274\240\346\240\207\346\202\254\346\265\256\346\230\276\347\244\272\346\217\220\347\244\272)", nullptr));
+        Widget->setWindowTitle(QApplication::translate("Widget", "\346\244\215\347\211\251\345\244\247\346\210\230\345\203\265\345\260\270\346\235\202\344\272\244\347\211\210\344\277\256\346\224\271\345\231\250 V10.1 (\351\203\250\345\210\206\345\212\237\350\203\275\351\274\240\346\240\207\346\202\254\346\265\256\346\230\276\347\244\272\346\217\220\347\244\272)", nullptr));
         label->setText(QApplication::translate("Widget", "\346\234\252\345\217\221\347\216\260\346\270\270\346\210\217\350\277\233\347\250\213", nullptr));
         checkBox_7->setText(QApplication::translate("Widget", "\345\220\216\345\217\260\350\277\220\350\241\214", nullptr));
         checkBox_13->setText(QApplication::translate("Widget", "\346\227\240\350\247\206\350\277\267\351\233\276", nullptr));
@@ -3535,6 +3540,7 @@ public:
         tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("Widget", "\350\265\204\346\272\220\347\261\273\344\277\256\346\224\271", nullptr));
         label_4->setText(QApplication::translate("Widget", "<html><head/><body><p><a href=\"https://github.com/Szy-XianQi/Szy_pvzHE_cheat\"><span style=\" font-size:14pt; font-weight:700; text-decoration: underline; color:#007af4;font-family:SIMHEI\">GitHub</span></a></p></body></html>", nullptr));
         label_13->setText(QApplication::translate("Widget", "<html><head/><body><p><a href=\"https://space.bilibili.com/393283655\"><span style=\" font-size:14pt; font-weight:700; text-decoration: underline; color:#007af4;font-family:SIMHEI\">BiliBili</span></a></p></body></html>", nullptr));
+        pushButton_19->setText(QApplication::translate("Widget", "\346\233\264\346\226\260\345\206\205\345\256\271", nullptr));
     } // retranslateUi
 
 };

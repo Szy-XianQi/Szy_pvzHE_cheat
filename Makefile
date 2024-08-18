@@ -338,8 +338,10 @@ Makefile: Szy_pvzHE_Cheats.pro C:\Qt\6.5.3\5.12.0-static\mkspecs\win32-msvc\qmak
 		C:\Qt\6.5.3\5.12.0-static\plugins\imageformats\qtiff.prl \
 		C:\Qt\6.5.3\5.12.0-static\plugins\imageformats\qwbmp.prl \
 		C:\Qt\6.5.3\5.12.0-static\plugins\imageformats\qwebp.prl \
+		C:\Qt\6.5.3\5.12.0-static\plugins\bearer\qgenericbearer.prl \
 		C:\Qt\6.5.3\5.12.0-static\lib\Qt5Widgets.prl \
 		C:\Qt\6.5.3\5.12.0-static\lib\Qt5Gui.prl \
+		C:\Qt\6.5.3\5.12.0-static\lib\Qt5Network.prl \
 		C:\Qt\6.5.3\5.12.0-static\lib\Qt5Core.prl \
 		C:\Qt\6.5.3\5.12.0-static\lib\qtmain.prl
 	$(QMAKE) -o Makefile Szy_pvzHE_Cheats.pro -spec win32-msvc "CONFIG+=qtquickcompiler"
@@ -606,8 +608,10 @@ C:\Qt\6.5.3\5.12.0-static\plugins\imageformats\qtga.prl:
 C:\Qt\6.5.3\5.12.0-static\plugins\imageformats\qtiff.prl:
 C:\Qt\6.5.3\5.12.0-static\plugins\imageformats\qwbmp.prl:
 C:\Qt\6.5.3\5.12.0-static\plugins\imageformats\qwebp.prl:
+C:\Qt\6.5.3\5.12.0-static\plugins\bearer\qgenericbearer.prl:
 C:\Qt\6.5.3\5.12.0-static\lib\Qt5Widgets.prl:
 C:\Qt\6.5.3\5.12.0-static\lib\Qt5Gui.prl:
+C:\Qt\6.5.3\5.12.0-static\lib\Qt5Network.prl:
 C:\Qt\6.5.3\5.12.0-static\lib\Qt5Core.prl:
 C:\Qt\6.5.3\5.12.0-static\lib\qtmain.prl:
 qmake: FORCE

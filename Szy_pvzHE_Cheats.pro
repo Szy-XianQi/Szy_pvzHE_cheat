@@ -1,4 +1,4 @@
-QT       += core gui
+QT       += core gui network
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -25,7 +25,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 RESOURCES += \
     Szy_pvzHE_Cheats.qrc
 RC_ICONS = logo.ico
-VERSION = 10.0.0.0
+VERSION = 10.1.0.0
 RC_LANG = 0x0004
 QMAKE_TARGET_COPYRIGHT = "Copyright 2018-2023 The Szy_1222.All rights reserved"
-QMAKE_TARGET_PRODUCT = "Szy_Pvzz_CheatV10.0"
+QMAKE_TARGET_PRODUCT = "Szy_pvzHE_CheatsV10.1"
