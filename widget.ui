@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>植物大战僵尸杂交版修改器 V10.1 (部分功能鼠标悬浮显示提示)</string>
+   <string>植物大战僵尸杂交版修改器 V11.0 (部分功能鼠标悬浮显示提示)</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color:#ececec</string>
@@ -133,8 +133,8 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QPushButton" name="pushButton_5">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>410</y>
+       <x>193</x>
+       <y>400</y>
        <width>180</width>
        <height>51</height>
       </rect>
@@ -149,8 +149,8 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QPushButton" name="pushButton_6">
      <property name="geometry">
       <rect>
-       <x>270</x>
-       <y>340</y>
+       <x>383</x>
+       <y>330</y>
        <width>180</width>
        <height>51</height>
       </rect>
@@ -165,8 +165,8 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QPushButton" name="pushButton_8">
      <property name="geometry">
       <rect>
-       <x>20</x>
-       <y>340</y>
+       <x>193</x>
+       <y>330</y>
        <width>180</width>
        <height>51</height>
       </rect>
@@ -227,8 +227,8 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QPushButton" name="pushButton">
      <property name="geometry">
       <rect>
-       <x>270</x>
-       <y>410</y>
+       <x>383</x>
+       <y>400</y>
        <width>180</width>
        <height>51</height>
       </rect>
@@ -309,7 +309,7 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
     <widget class="QGroupBox" name="groupBox">
      <property name="geometry">
       <rect>
-       <x>520</x>
+       <x>580</x>
        <y>330</y>
        <width>181</width>
        <height>141</height>
@@ -1159,6 +1159,36 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
         <string>天使向日葵</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>回收高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>彩虹糖果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>百变高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>逆时闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>禁忌寒冰菇</string>
+       </property>
+      </item>
      </widget>
      <widget class="QComboBox" name="comboBox_5">
       <property name="geometry">
@@ -1853,6 +1883,36 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <item>
        <property name="text">
         <string>天使向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>回收高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>彩虹糖果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>百变高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>逆时闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>禁忌寒冰菇</string>
        </property>
       </item>
      </widget>
@@ -2568,6 +2628,36 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <item>
        <property name="text">
         <string>天使向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>回收高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>彩虹糖果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>百变高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>逆时闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>禁忌寒冰菇</string>
        </property>
       </item>
      </widget>
@@ -3304,6 +3394,36 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
         <string>天使向日葵</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>回收高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>彩虹糖果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>百变高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>逆时闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>禁忌寒冰菇</string>
+       </property>
+      </item>
      </widget>
      <widget class="QComboBox" name="comboBox_10">
       <property name="geometry">
@@ -4000,6 +4120,36 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
         <string>天使向日葵</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>回收高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>彩虹糖果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>百变高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>逆时闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>禁忌寒冰菇</string>
+       </property>
+      </item>
      </widget>
      <widget class="QCheckBox" name="checkBox_37">
       <property name="geometry">
@@ -4073,6 +4223,25 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
      </property>
      <property name="text">
       <string>取消坑洞</string>
+     </property>
+    </widget>
+    <widget class="QCheckBox" name="checkBox_46">
+     <property name="geometry">
+      <rect>
+       <x>30</x>
+       <y>330</y>
+       <width>161</width>
+       <height>42</height>
+      </rect>
+     </property>
+     <property name="toolTip">
+      <string/>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 20pt &quot;Microsoft YaHei UI&quot;;</string>
+     </property>
+     <property name="text">
+      <string>罐子透视</string>
      </property>
     </widget>
    </widget>
@@ -5264,6 +5433,36 @@ font: 10pt &quot;Microsoft YaHei UI&quot;;
       </item>
       <item>
        <property name="text">
+        <string>回收高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>彩虹糖果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>百变高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>逆时闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>禁忌寒冰菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
         <string>呼叫网管</string>
        </property>
       </item>
@@ -5969,6 +6168,36 @@ font: 10pt &quot;Microsoft YaHei UI&quot;;
       <item>
        <property name="text">
         <string>天使向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>回收高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>彩虹糖果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>百变高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>逆时闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>禁忌寒冰菇</string>
        </property>
       </item>
       <item>
@@ -6770,6 +6999,31 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
         <string>小推车小鬼僵尸</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>罐子僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>催眠师僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>园丁僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>暴走舞王伽刚特尔</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>伴舞伽刚特尔</string>
+       </property>
+      </item>
      </widget>
      <widget class="QCheckBox" name="checkBox_42">
       <property name="geometry">
@@ -7144,6 +7398,31 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <item>
        <property name="text">
         <string>小推车小鬼僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>罐子僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>催眠师僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>园丁僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>暴走舞王伽刚特尔</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>伴舞伽刚特尔</string>
        </property>
       </item>
      </widget>
@@ -8458,6 +8737,36 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <item>
        <property name="text">
         <string>天使向日葵</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>回收高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>彩虹糖果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>百变高坚果</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>逆时闹钟</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>阳光加农炮</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>禁忌寒冰菇</string>
        </property>
       </item>
      </widget>

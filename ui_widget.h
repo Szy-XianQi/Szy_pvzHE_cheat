@@ -61,6 +61,7 @@ public:
     QCheckBox *checkBox_2;
     QCheckBox *checkBox_28;
     QCheckBox *checkBox_23;
+    QCheckBox *checkBox_46;
     QWidget *tab_4;
     QCheckBox *checkBox_3;
     QCheckBox *checkBox_4;
@@ -211,15 +212,15 @@ public:
         checkBox_8->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         pushButton_5 = new QPushButton(tab_3);
         pushButton_5->setObjectName(QString::fromUtf8("pushButton_5"));
-        pushButton_5->setGeometry(QRect(20, 410, 180, 51));
+        pushButton_5->setGeometry(QRect(193, 400, 180, 51));
         pushButton_5->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         pushButton_6 = new QPushButton(tab_3);
         pushButton_6->setObjectName(QString::fromUtf8("pushButton_6"));
-        pushButton_6->setGeometry(QRect(270, 340, 180, 51));
+        pushButton_6->setGeometry(QRect(383, 330, 180, 51));
         pushButton_6->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         pushButton_8 = new QPushButton(tab_3);
         pushButton_8->setObjectName(QString::fromUtf8("pushButton_8"));
-        pushButton_8->setGeometry(QRect(20, 340, 180, 51));
+        pushButton_8->setGeometry(QRect(193, 330, 180, 51));
         pushButton_8->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         checkBox = new QCheckBox(tab_3);
         checkBox->setObjectName(QString::fromUtf8("checkBox"));
@@ -239,7 +240,7 @@ public:
         checkBox_12->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         pushButton = new QPushButton(tab_3);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(270, 410, 180, 51));
+        pushButton->setGeometry(QRect(383, 400, 180, 51));
         pushButton->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         checkBox_21 = new QCheckBox(tab_3);
         checkBox_21->setObjectName(QString::fromUtf8("checkBox_21"));
@@ -257,7 +258,7 @@ public:
         checkBox_22->setChecked(false);
         groupBox = new QGroupBox(tab_3);
         groupBox->setObjectName(QString::fromUtf8("groupBox"));
-        groupBox->setGeometry(QRect(520, 330, 181, 141));
+        groupBox->setGeometry(QRect(580, 330, 181, 141));
         groupBox->setStyleSheet(QString::fromUtf8("font: 10pt \"Microsoft YaHei UI\";\n"
 "\n"
 ""));
@@ -297,6 +298,12 @@ public:
         checkBox_31->setGeometry(QRect(10, 23, 171, 48));
         checkBox_31->setStyleSheet(QString::fromUtf8("font: 14pt \"Microsoft YaHei UI\";"));
         comboBox_4 = new QComboBox(groupBox_7);
+        comboBox_4->addItem(QString());
+        comboBox_4->addItem(QString());
+        comboBox_4->addItem(QString());
+        comboBox_4->addItem(QString());
+        comboBox_4->addItem(QString());
+        comboBox_4->addItem(QString());
         comboBox_4->addItem(QString());
         comboBox_4->addItem(QString());
         comboBox_4->addItem(QString());
@@ -573,6 +580,12 @@ public:
         comboBox_5->addItem(QString());
         comboBox_5->addItem(QString());
         comboBox_5->addItem(QString());
+        comboBox_5->addItem(QString());
+        comboBox_5->addItem(QString());
+        comboBox_5->addItem(QString());
+        comboBox_5->addItem(QString());
+        comboBox_5->addItem(QString());
+        comboBox_5->addItem(QString());
         comboBox_5->setObjectName(QString::fromUtf8("comboBox_5"));
         comboBox_5->setGeometry(QRect(182, 73, 190, 31));
         comboBox_5->setStyleSheet(QString::fromUtf8("font: 12pt \"Microsoft YaHei UI\";"));
@@ -581,6 +594,12 @@ public:
         checkBox_32->setGeometry(QRect(10, 63, 171, 48));
         checkBox_32->setStyleSheet(QString::fromUtf8("font: 14pt \"Microsoft YaHei UI\";"));
         comboBox_6 = new QComboBox(groupBox_7);
+        comboBox_6->addItem(QString());
+        comboBox_6->addItem(QString());
+        comboBox_6->addItem(QString());
+        comboBox_6->addItem(QString());
+        comboBox_6->addItem(QString());
+        comboBox_6->addItem(QString());
         comboBox_6->addItem(QString());
         comboBox_6->addItem(QString());
         comboBox_6->addItem(QString());
@@ -865,10 +884,22 @@ public:
         comboBox_7->addItem(QString());
         comboBox_7->addItem(QString());
         comboBox_7->addItem(QString());
+        comboBox_7->addItem(QString());
+        comboBox_7->addItem(QString());
+        comboBox_7->addItem(QString());
+        comboBox_7->addItem(QString());
+        comboBox_7->addItem(QString());
+        comboBox_7->addItem(QString());
         comboBox_7->setObjectName(QString::fromUtf8("comboBox_7"));
         comboBox_7->setGeometry(QRect(182, 153, 190, 31));
         comboBox_7->setStyleSheet(QString::fromUtf8("font: 12pt \"Microsoft YaHei UI\";"));
         comboBox_10 = new QComboBox(groupBox_7);
+        comboBox_10->addItem(QString());
+        comboBox_10->addItem(QString());
+        comboBox_10->addItem(QString());
+        comboBox_10->addItem(QString());
+        comboBox_10->addItem(QString());
+        comboBox_10->addItem(QString());
         comboBox_10->addItem(QString());
         comboBox_10->addItem(QString());
         comboBox_10->addItem(QString());
@@ -1024,6 +1055,10 @@ public:
         checkBox_23->setObjectName(QString::fromUtf8("checkBox_23"));
         checkBox_23->setGeometry(QRect(200, 270, 161, 42));
         checkBox_23->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
+        checkBox_46 = new QCheckBox(tab_3);
+        checkBox_46->setObjectName(QString::fromUtf8("checkBox_46"));
+        checkBox_46->setGeometry(QRect(30, 330, 161, 42));
+        checkBox_46->setStyleSheet(QString::fromUtf8("font: 20pt \"Microsoft YaHei UI\";"));
         tabWidget->addTab(tab_3, QString());
         tab_4 = new QWidget();
         tab_4->setObjectName(QString::fromUtf8("tab_4"));
@@ -1286,10 +1321,22 @@ public:
         comboBox->addItem(QString());
         comboBox->addItem(QString());
         comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
+        comboBox->addItem(QString());
         comboBox->setObjectName(QString::fromUtf8("comboBox"));
         comboBox->setGeometry(QRect(67, 80, 190, 31));
         comboBox->setStyleSheet(QString::fromUtf8("font: 12pt \"Microsoft YaHei UI\";"));
         comboBox_2 = new QComboBox(groupBox_4);
+        comboBox_2->addItem(QString());
+        comboBox_2->addItem(QString());
+        comboBox_2->addItem(QString());
+        comboBox_2->addItem(QString());
+        comboBox_2->addItem(QString());
+        comboBox_2->addItem(QString());
         comboBox_2->addItem(QString());
         comboBox_2->addItem(QString());
         comboBox_2->addItem(QString());
@@ -1622,6 +1669,11 @@ public:
         comboBox_8->addItem(QString());
         comboBox_8->addItem(QString());
         comboBox_8->addItem(QString());
+        comboBox_8->addItem(QString());
+        comboBox_8->addItem(QString());
+        comboBox_8->addItem(QString());
+        comboBox_8->addItem(QString());
+        comboBox_8->addItem(QString());
         comboBox_8->setObjectName(QString::fromUtf8("comboBox_8"));
         comboBox_8->setGeometry(QRect(67, 80, 190, 31));
         comboBox_8->setStyleSheet(QString::fromUtf8("font: 12pt \"Microsoft YaHei UI\";"));
@@ -1644,6 +1696,11 @@ public:
         label_28->setGeometry(QRect(10, 40, 60, 31));
         label_28->setStyleSheet(QString::fromUtf8("font: 14pt \"Microsoft YaHei UI\";"));
         comboBox_9 = new QComboBox(groupBox_10);
+        comboBox_9->addItem(QString());
+        comboBox_9->addItem(QString());
+        comboBox_9->addItem(QString());
+        comboBox_9->addItem(QString());
+        comboBox_9->addItem(QString());
         comboBox_9->addItem(QString());
         comboBox_9->addItem(QString());
         comboBox_9->addItem(QString());
@@ -2001,6 +2058,12 @@ public:
         comboBox_3->addItem(QString());
         comboBox_3->addItem(QString());
         comboBox_3->addItem(QString());
+        comboBox_3->addItem(QString());
+        comboBox_3->addItem(QString());
+        comboBox_3->addItem(QString());
+        comboBox_3->addItem(QString());
+        comboBox_3->addItem(QString());
+        comboBox_3->addItem(QString());
         comboBox_3->setObjectName(QString::fromUtf8("comboBox_3"));
         comboBox_3->setGeometry(QRect(67, 80, 190, 31));
         comboBox_3->setStyleSheet(QString::fromUtf8("font: 12pt \"Microsoft YaHei UI\";"));
@@ -2091,7 +2154,7 @@ public:
 
     void retranslateUi(QWidget *Widget)
     {
-        Widget->setWindowTitle(QApplication::translate("Widget", "\346\244\215\347\211\251\345\244\247\346\210\230\345\203\265\345\260\270\346\235\202\344\272\244\347\211\210\344\277\256\346\224\271\345\231\250 V10.1 (\351\203\250\345\210\206\345\212\237\350\203\275\351\274\240\346\240\207\346\202\254\346\265\256\346\230\276\347\244\272\346\217\220\347\244\272)", nullptr));
+        Widget->setWindowTitle(QApplication::translate("Widget", "\346\244\215\347\211\251\345\244\247\346\210\230\345\203\265\345\260\270\346\235\202\344\272\244\347\211\210\344\277\256\346\224\271\345\231\250 V11.0 (\351\203\250\345\210\206\345\212\237\350\203\275\351\274\240\346\240\207\346\202\254\346\265\256\346\230\276\347\244\272\346\217\220\347\244\272)", nullptr));
         label->setText(QApplication::translate("Widget", "\346\234\252\345\217\221\347\216\260\346\270\270\346\210\217\350\277\233\347\250\213", nullptr));
         checkBox_7->setText(QApplication::translate("Widget", "\345\220\216\345\217\260\350\277\220\350\241\214", nullptr));
         checkBox_13->setText(QApplication::translate("Widget", "\346\227\240\350\247\206\350\277\267\351\233\276", nullptr));
@@ -2269,6 +2332,12 @@ public:
         comboBox_4->setItemText(133, QApplication::translate("Widget", "\344\277\203\351\224\200\345\235\232\346\236\234", nullptr));
         comboBox_4->setItemText(134, QApplication::translate("Widget", "\344\277\203\351\224\200\350\212\261\347\233\206", nullptr));
         comboBox_4->setItemText(135, QApplication::translate("Widget", "\345\244\251\344\275\277\345\220\221\346\227\245\350\221\265", nullptr));
+        comboBox_4->setItemText(136, QApplication::translate("Widget", "\345\233\236\346\224\266\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox_4->setItemText(137, QApplication::translate("Widget", "\345\275\251\350\231\271\347\263\226\346\236\234", nullptr));
+        comboBox_4->setItemText(138, QApplication::translate("Widget", "\347\231\276\345\217\230\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox_4->setItemText(139, QApplication::translate("Widget", "\351\200\206\346\227\266\351\227\271\351\222\237", nullptr));
+        comboBox_4->setItemText(140, QApplication::translate("Widget", "\351\230\263\345\205\211\345\212\240\345\206\234\347\202\256", nullptr));
+        comboBox_4->setItemText(141, QApplication::translate("Widget", "\347\246\201\345\277\214\345\257\222\345\206\260\350\217\207", nullptr));
 
         comboBox_5->setItemText(0, QApplication::translate("Widget", "\350\261\214\350\261\206\345\220\221\346\227\245\350\221\265", nullptr));
         comboBox_5->setItemText(1, QApplication::translate("Widget", "\351\230\263\345\205\211\350\261\206", nullptr));
@@ -2406,6 +2475,12 @@ public:
         comboBox_5->setItemText(133, QApplication::translate("Widget", "\344\277\203\351\224\200\345\235\232\346\236\234", nullptr));
         comboBox_5->setItemText(134, QApplication::translate("Widget", "\344\277\203\351\224\200\350\212\261\347\233\206", nullptr));
         comboBox_5->setItemText(135, QApplication::translate("Widget", "\345\244\251\344\275\277\345\220\221\346\227\245\350\221\265", nullptr));
+        comboBox_5->setItemText(136, QApplication::translate("Widget", "\345\233\236\346\224\266\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox_5->setItemText(137, QApplication::translate("Widget", "\345\275\251\350\231\271\347\263\226\346\236\234", nullptr));
+        comboBox_5->setItemText(138, QApplication::translate("Widget", "\347\231\276\345\217\230\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox_5->setItemText(139, QApplication::translate("Widget", "\351\200\206\346\227\266\351\227\271\351\222\237", nullptr));
+        comboBox_5->setItemText(140, QApplication::translate("Widget", "\351\230\263\345\205\211\345\212\240\345\206\234\347\202\256", nullptr));
+        comboBox_5->setItemText(141, QApplication::translate("Widget", "\347\246\201\345\277\214\345\257\222\345\206\260\350\217\207", nullptr));
 
 #ifndef QT_NO_TOOLTIP
         checkBox_32->setToolTip(QString());
@@ -2547,6 +2622,12 @@ public:
         comboBox_6->setItemText(133, QApplication::translate("Widget", "\344\277\203\351\224\200\345\235\232\346\236\234", nullptr));
         comboBox_6->setItemText(134, QApplication::translate("Widget", "\344\277\203\351\224\200\350\212\261\347\233\206", nullptr));
         comboBox_6->setItemText(135, QApplication::translate("Widget", "\345\244\251\344\275\277\345\220\221\346\227\245\350\221\265", nullptr));
+        comboBox_6->setItemText(136, QApplication::translate("Widget", "\345\233\236\346\224\266\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox_6->setItemText(137, QApplication::translate("Widget", "\345\275\251\350\231\271\347\263\226\346\236\234", nullptr));
+        comboBox_6->setItemText(138, QApplication::translate("Widget", "\347\231\276\345\217\230\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox_6->setItemText(139, QApplication::translate("Widget", "\351\200\206\346\227\266\351\227\271\351\222\237", nullptr));
+        comboBox_6->setItemText(140, QApplication::translate("Widget", "\351\230\263\345\205\211\345\212\240\345\206\234\347\202\256", nullptr));
+        comboBox_6->setItemText(141, QApplication::translate("Widget", "\347\246\201\345\277\214\345\257\222\345\206\260\350\217\207", nullptr));
 
 #ifndef QT_NO_TOOLTIP
         checkBox_33->setToolTip(QString());
@@ -2692,6 +2773,12 @@ public:
         comboBox_7->setItemText(133, QApplication::translate("Widget", "\344\277\203\351\224\200\345\235\232\346\236\234", nullptr));
         comboBox_7->setItemText(134, QApplication::translate("Widget", "\344\277\203\351\224\200\350\212\261\347\233\206", nullptr));
         comboBox_7->setItemText(135, QApplication::translate("Widget", "\345\244\251\344\275\277\345\220\221\346\227\245\350\221\265", nullptr));
+        comboBox_7->setItemText(136, QApplication::translate("Widget", "\345\233\236\346\224\266\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox_7->setItemText(137, QApplication::translate("Widget", "\345\275\251\350\231\271\347\263\226\346\236\234", nullptr));
+        comboBox_7->setItemText(138, QApplication::translate("Widget", "\347\231\276\345\217\230\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox_7->setItemText(139, QApplication::translate("Widget", "\351\200\206\346\227\266\351\227\271\351\222\237", nullptr));
+        comboBox_7->setItemText(140, QApplication::translate("Widget", "\351\230\263\345\205\211\345\212\240\345\206\234\347\202\256", nullptr));
+        comboBox_7->setItemText(141, QApplication::translate("Widget", "\347\246\201\345\277\214\345\257\222\345\206\260\350\217\207", nullptr));
 
         comboBox_10->setItemText(0, QApplication::translate("Widget", "\350\261\214\350\261\206\345\220\221\346\227\245\350\221\265", nullptr));
         comboBox_10->setItemText(1, QApplication::translate("Widget", "\351\230\263\345\205\211\350\261\206", nullptr));
@@ -2829,6 +2916,12 @@ public:
         comboBox_10->setItemText(133, QApplication::translate("Widget", "\344\277\203\351\224\200\345\235\232\346\236\234", nullptr));
         comboBox_10->setItemText(134, QApplication::translate("Widget", "\344\277\203\351\224\200\350\212\261\347\233\206", nullptr));
         comboBox_10->setItemText(135, QApplication::translate("Widget", "\345\244\251\344\275\277\345\220\221\346\227\245\350\221\265", nullptr));
+        comboBox_10->setItemText(136, QApplication::translate("Widget", "\345\233\236\346\224\266\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox_10->setItemText(137, QApplication::translate("Widget", "\345\275\251\350\231\271\347\263\226\346\236\234", nullptr));
+        comboBox_10->setItemText(138, QApplication::translate("Widget", "\347\231\276\345\217\230\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox_10->setItemText(139, QApplication::translate("Widget", "\351\200\206\346\227\266\351\227\271\351\222\237", nullptr));
+        comboBox_10->setItemText(140, QApplication::translate("Widget", "\351\230\263\345\205\211\345\212\240\345\206\234\347\202\256", nullptr));
+        comboBox_10->setItemText(141, QApplication::translate("Widget", "\347\246\201\345\277\214\345\257\222\345\206\260\350\217\207", nullptr));
 
 #ifndef QT_NO_TOOLTIP
         checkBox_37->setToolTip(QString());
@@ -2843,6 +2936,10 @@ public:
         checkBox_23->setToolTip(QApplication::translate("Widget", "<html><head/><body><p><span style=\" font-size:11pt;\">\345\217\226\346\266\210\346\257\201\347\201\255\347\261\273\346\244\215\347\211\251\347\224\237\346\210\220\347\232\204\345\235\221\346\264\236 \345\205\263\351\227\255\346\257\201\347\201\255\347\261\273\346\244\215\347\211\251\351\224\200\346\257\201\345\220\214\346\240\274\346\244\215\347\211\251(\345\214\205\346\213\254\345\235\221\346\264\236\345\235\232\346\236\234)</span></p></body></html>", nullptr));
 #endif // QT_NO_TOOLTIP
         checkBox_23->setText(QApplication::translate("Widget", "\345\217\226\346\266\210\345\235\221\346\264\236", nullptr));
+#ifndef QT_NO_TOOLTIP
+        checkBox_46->setToolTip(QString());
+#endif // QT_NO_TOOLTIP
+        checkBox_46->setText(QApplication::translate("Widget", "\347\275\220\345\255\220\351\200\217\350\247\206", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_3), QApplication::translate("Widget", "  \350\247\204\345\210\231\347\261\273\344\277\256\346\224\271  ", nullptr));
         checkBox_3->setText(QApplication::translate("Widget", "\344\273\273\346\204\217\347\247\215\346\244\215", nullptr));
 #ifndef QT_NO_TOOLTIP
@@ -3034,7 +3131,13 @@ public:
         comboBox->setItemText(134, QApplication::translate("Widget", "\344\277\203\351\224\200\345\235\232\346\236\234", nullptr));
         comboBox->setItemText(135, QApplication::translate("Widget", "\344\277\203\351\224\200\350\212\261\347\233\206", nullptr));
         comboBox->setItemText(136, QApplication::translate("Widget", "\345\244\251\344\275\277\345\220\221\346\227\245\350\221\265", nullptr));
-        comboBox->setItemText(137, QApplication::translate("Widget", "\345\221\274\345\217\253\347\275\221\347\256\241", nullptr));
+        comboBox->setItemText(137, QApplication::translate("Widget", "\345\233\236\346\224\266\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox->setItemText(138, QApplication::translate("Widget", "\345\275\251\350\231\271\347\263\226\346\236\234", nullptr));
+        comboBox->setItemText(139, QApplication::translate("Widget", "\347\231\276\345\217\230\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox->setItemText(140, QApplication::translate("Widget", "\351\200\206\346\227\266\351\227\271\351\222\237", nullptr));
+        comboBox->setItemText(141, QApplication::translate("Widget", "\351\230\263\345\205\211\345\212\240\345\206\234\347\202\256", nullptr));
+        comboBox->setItemText(142, QApplication::translate("Widget", "\347\246\201\345\277\214\345\257\222\345\206\260\350\217\207", nullptr));
+        comboBox->setItemText(143, QApplication::translate("Widget", "\345\221\274\345\217\253\347\275\221\347\256\241", nullptr));
 
         comboBox_2->setItemText(0, QApplication::translate("Widget", "\350\261\214\350\261\206\345\220\221\346\227\245\350\221\265", nullptr));
         comboBox_2->setItemText(1, QApplication::translate("Widget", "\351\230\263\345\205\211\350\261\206", nullptr));
@@ -3173,7 +3276,13 @@ public:
         comboBox_2->setItemText(134, QApplication::translate("Widget", "\344\277\203\351\224\200\345\235\232\346\236\234", nullptr));
         comboBox_2->setItemText(135, QApplication::translate("Widget", "\344\277\203\351\224\200\350\212\261\347\233\206", nullptr));
         comboBox_2->setItemText(136, QApplication::translate("Widget", "\345\244\251\344\275\277\345\220\221\346\227\245\350\221\265", nullptr));
-        comboBox_2->setItemText(137, QApplication::translate("Widget", "\345\221\274\345\217\253\347\275\221\347\256\241", nullptr));
+        comboBox_2->setItemText(137, QApplication::translate("Widget", "\345\233\236\346\224\266\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox_2->setItemText(138, QApplication::translate("Widget", "\345\275\251\350\231\271\347\263\226\346\236\234", nullptr));
+        comboBox_2->setItemText(139, QApplication::translate("Widget", "\347\231\276\345\217\230\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox_2->setItemText(140, QApplication::translate("Widget", "\351\200\206\346\227\266\351\227\271\351\222\237", nullptr));
+        comboBox_2->setItemText(141, QApplication::translate("Widget", "\351\230\263\345\205\211\345\212\240\345\206\234\347\202\256", nullptr));
+        comboBox_2->setItemText(142, QApplication::translate("Widget", "\347\246\201\345\277\214\345\257\222\345\206\260\350\217\207", nullptr));
+        comboBox_2->setItemText(143, QApplication::translate("Widget", "\345\221\274\345\217\253\347\275\221\347\256\241", nullptr));
 
         label_11->setText(QApplication::translate("Widget", "\346\250\241\344\273\277:", nullptr));
         checkBox_27->setText(QApplication::translate("Widget", "\345\205\250\345\261\217\347\247\215\346\244\215", nullptr));
@@ -3281,6 +3390,11 @@ public:
         comboBox_8->setItemText(56, QApplication::translate("Widget", "\351\230\262\347\210\206\351\227\250\345\203\265\345\260\270", nullptr));
         comboBox_8->setItemText(57, QApplication::translate("Widget", "\351\252\221\351\270\255\345\203\265\345\260\270", nullptr));
         comboBox_8->setItemText(58, QApplication::translate("Widget", "\345\260\217\346\216\250\350\275\246\345\260\217\351\254\274\345\203\265\345\260\270", nullptr));
+        comboBox_8->setItemText(59, QApplication::translate("Widget", "\347\275\220\345\255\220\345\203\265\345\260\270", nullptr));
+        comboBox_8->setItemText(60, QApplication::translate("Widget", "\345\202\254\347\234\240\345\270\210\345\203\265\345\260\270", nullptr));
+        comboBox_8->setItemText(61, QApplication::translate("Widget", "\345\233\255\344\270\201\345\203\265\345\260\270", nullptr));
+        comboBox_8->setItemText(62, QApplication::translate("Widget", "\346\232\264\350\265\260\350\210\236\347\216\213\344\274\275\345\210\232\347\211\271\345\260\224", nullptr));
+        comboBox_8->setItemText(63, QApplication::translate("Widget", "\344\274\264\350\210\236\344\274\275\345\210\232\347\211\271\345\260\224", nullptr));
 
         checkBox_42->setText(QApplication::translate("Widget", "\351\255\205\346\203\221", nullptr));
         groupBox_10->setTitle(QApplication::translate("Widget", "\351\224\201\345\256\232\345\207\272\346\200\252\344\270\272\346\214\207\345\256\232\345\203\265\345\260\270", nullptr));
@@ -3344,6 +3458,11 @@ public:
         comboBox_9->setItemText(56, QApplication::translate("Widget", "\351\230\262\347\210\206\351\227\250\345\203\265\345\260\270", nullptr));
         comboBox_9->setItemText(57, QApplication::translate("Widget", "\351\252\221\351\270\255\345\203\265\345\260\270", nullptr));
         comboBox_9->setItemText(58, QApplication::translate("Widget", "\345\260\217\346\216\250\350\275\246\345\260\217\351\254\274\345\203\265\345\260\270", nullptr));
+        comboBox_9->setItemText(59, QApplication::translate("Widget", "\347\275\220\345\255\220\345\203\265\345\260\270", nullptr));
+        comboBox_9->setItemText(60, QApplication::translate("Widget", "\345\202\254\347\234\240\345\270\210\345\203\265\345\260\270", nullptr));
+        comboBox_9->setItemText(61, QApplication::translate("Widget", "\345\233\255\344\270\201\345\203\265\345\260\270", nullptr));
+        comboBox_9->setItemText(62, QApplication::translate("Widget", "\346\232\264\350\265\260\350\210\236\347\216\213\344\274\275\345\210\232\347\211\271\345\260\224", nullptr));
+        comboBox_9->setItemText(63, QApplication::translate("Widget", "\344\274\264\350\210\236\344\274\275\345\210\232\347\211\271\345\260\224", nullptr));
 
         checkBox_36->setText(QApplication::translate("Widget", "\351\224\201\345\256\232", nullptr));
 #ifndef QT_NO_TOOLTIP
@@ -3523,6 +3642,12 @@ public:
         comboBox_3->setItemText(133, QApplication::translate("Widget", "\344\277\203\351\224\200\345\235\232\346\236\234", nullptr));
         comboBox_3->setItemText(134, QApplication::translate("Widget", "\344\277\203\351\224\200\350\212\261\347\233\206", nullptr));
         comboBox_3->setItemText(135, QApplication::translate("Widget", "\345\244\251\344\275\277\345\220\221\346\227\245\350\221\265", nullptr));
+        comboBox_3->setItemText(136, QApplication::translate("Widget", "\345\233\236\346\224\266\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox_3->setItemText(137, QApplication::translate("Widget", "\345\275\251\350\231\271\347\263\226\346\236\234", nullptr));
+        comboBox_3->setItemText(138, QApplication::translate("Widget", "\347\231\276\345\217\230\351\253\230\345\235\232\346\236\234", nullptr));
+        comboBox_3->setItemText(139, QApplication::translate("Widget", "\351\200\206\346\227\266\351\227\271\351\222\237", nullptr));
+        comboBox_3->setItemText(140, QApplication::translate("Widget", "\351\230\263\345\205\211\345\212\240\345\206\234\347\202\256", nullptr));
+        comboBox_3->setItemText(141, QApplication::translate("Widget", "\347\246\201\345\277\214\345\257\222\345\206\260\350\217\207", nullptr));
 
         label_19->setText(QApplication::translate("Widget", "\345\215\241\346\247\275", nullptr));
         groupBox_8->setTitle(QApplication::translate("Widget", "\346\220\255\346\242\257", nullptr));
