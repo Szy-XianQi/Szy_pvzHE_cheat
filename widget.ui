@@ -29,7 +29,7 @@
    </size>
   </property>
   <property name="windowTitle">
-   <string>植物大战僵尸杂交版修改器 V11.0 (部分功能鼠标悬浮显示提示)</string>
+   <string>植物大战僵尸杂交版修改器 V12.0 (部分功能鼠标悬浮显示提示)</string>
   </property>
   <property name="styleSheet">
    <string notr="true">background-color:#ececec</string>
@@ -1189,6 +1189,56 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
         <string>禁忌寒冰菇</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>冰火裂荚射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆炸弹</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒阳光菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豆荚壳</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>荷包蛋</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰冰凉凉大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰焰南瓜头</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>至尊VIP树桩</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>灵魂豆</string>
+       </property>
+      </item>
      </widget>
      <widget class="QComboBox" name="comboBox_5">
       <property name="geometry">
@@ -1913,6 +1963,56 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <item>
        <property name="text">
         <string>禁忌寒冰菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰火裂荚射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆炸弹</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒阳光菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豆荚壳</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>荷包蛋</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰冰凉凉大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰焰南瓜头</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>至尊VIP树桩</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>灵魂豆</string>
        </property>
       </item>
      </widget>
@@ -2658,6 +2758,56 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <item>
        <property name="text">
         <string>禁忌寒冰菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰火裂荚射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆炸弹</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒阳光菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豆荚壳</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>荷包蛋</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰冰凉凉大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰焰南瓜头</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>至尊VIP树桩</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>灵魂豆</string>
        </property>
       </item>
      </widget>
@@ -3424,6 +3574,56 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
         <string>禁忌寒冰菇</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>冰火裂荚射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆炸弹</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒阳光菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豆荚壳</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>荷包蛋</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰冰凉凉大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰焰南瓜头</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>至尊VIP树桩</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>灵魂豆</string>
+       </property>
+      </item>
      </widget>
      <widget class="QComboBox" name="comboBox_10">
       <property name="geometry">
@@ -4148,6 +4348,56 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <item>
        <property name="text">
         <string>禁忌寒冰菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰火裂荚射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆炸弹</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒阳光菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豆荚壳</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>荷包蛋</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰冰凉凉大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰焰南瓜头</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>至尊VIP树桩</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>灵魂豆</string>
        </property>
       </item>
      </widget>
@@ -5463,6 +5713,56 @@ font: 10pt &quot;Microsoft YaHei UI&quot;;
       </item>
       <item>
        <property name="text">
+        <string>冰火裂荚射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆炸弹</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒阳光菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豆荚壳</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>荷包蛋</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰冰凉凉大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰焰南瓜头</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>至尊VIP树桩</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>灵魂豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
         <string>呼叫网管</string>
        </property>
       </item>
@@ -6198,6 +6498,56 @@ font: 10pt &quot;Microsoft YaHei UI&quot;;
       <item>
        <property name="text">
         <string>禁忌寒冰菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰火裂荚射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆炸弹</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒阳光菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豆荚壳</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>荷包蛋</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰冰凉凉大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰焰南瓜头</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>至尊VIP树桩</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>灵魂豆</string>
        </property>
       </item>
       <item>
@@ -7024,6 +7374,16 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
         <string>伴舞伽刚特尔</string>
        </property>
       </item>
+      <item>
+       <property name="text">
+        <string>影子僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>矿工地刺小鬼僵尸</string>
+       </property>
+      </item>
      </widget>
      <widget class="QCheckBox" name="checkBox_42">
       <property name="geometry">
@@ -7423,6 +7783,16 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <item>
        <property name="text">
         <string>伴舞伽刚特尔</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>影子僵尸</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>矿工地刺小鬼僵尸</string>
        </property>
       </item>
      </widget>
@@ -8767,6 +9137,56 @@ font: 14pt &quot;Microsoft YaHei UI&quot;;</string>
       <item>
        <property name="text">
         <string>禁忌寒冰菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰火裂荚射手</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豌豆炸弹</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>辣椒阳光菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>豆荚壳</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>忧郁咖啡豆</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>荷包蛋</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰冰凉凉大喷菇</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>冰焰南瓜头</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>至尊VIP树桩</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>灵魂豆</string>
        </property>
       </item>
      </widget>
