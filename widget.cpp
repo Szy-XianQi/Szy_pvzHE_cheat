@@ -2354,11 +2354,9 @@ void Widget::on_checkBox_44_stateChanged(int arg1) //僵尸自残
     }
 }
 #define updatebuffer QString::fromLocal8Bit(R"(
-9.27更新:<br>
-修复问题:<br>
-修复因游戏版本更新造成的功能失效<br>
-新增内容:<br>
-使用UPX压缩壳压缩本体文件<br><br>
+10.22更新:<br>
+新增功能:<br>
+新增小游戏全奖杯功能(资源类),可一键获得所有小游戏奖杯顺便获得星星<br><br>
 注:仅适配版本2.5.1,如遇BUG请及时反馈!!!
 )")
 void Widget::on_pushButton_19_clicked()
@@ -2378,6 +2376,25 @@ void Widget::on_checkBox_46_stateChanged(int arg1) //罐子透视
             ts = 0x4C4789FFC083067E;
         }
         WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x4E5CE), &ts, sizeof(ts), 0);
+    }
+}
+void Widget::on_pushButton_20_clicked() // 解锁小游戏
+{
+    if(GameProcessID != 0){
+        int tempaddr{0};
+        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(GameHandle) + 0x2A9EC0),&tempaddr,sizeof(tempaddr),0);//基地址
+        ReadProcessMemory(GameProcessHandle,LPVOID((DWORD64)(tempaddr) + 0x82C),&tempaddr,sizeof(tempaddr),0);//一级偏移
+        int flag{1};
+        for(int i = 0;i<=132;i+=4){ //迷你游戏
+            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(tempaddr) + 0x202C+i), &flag, sizeof(flag), 0);
+        }
+        for(int i = 1024;i<=1172;i+=4){ //砸罐子 我是僵尸 两面夹击
+            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(tempaddr) + 0x202C+i), &flag, sizeof(flag), 0);
+        }
+        for(int i = 0;i<=548;i+=4){ //挑战模式
+            WriteProcessMemory(GameProcessHandle,LPVOID((DWORD64)(tempaddr) + 0x82C+i ), &flag, sizeof(flag), 0);
+            //qDebug(std::to_string((DWORD64)(tempaddr) + 0x82C+i).c_str());
+        }
     }
 }
 

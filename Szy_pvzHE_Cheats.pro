@@ -25,7 +25,7 @@ else: unix:!android: target.path = /opt/$${TARGET}/bin
 RESOURCES += \
     Szy_pvzHE_Cheats.qrc
 RC_ICONS = logo.ico
-VERSION = 12.1.0.0
+VERSION = 12.2.0.0
 RC_LANG = 0x0004
 QMAKE_TARGET_COPYRIGHT = "Copyright 2018-2023 The Szy_1222.All rights reserved"
-QMAKE_TARGET_PRODUCT = "Szy_pvzHE_CheatsV12.1"
+QMAKE_TARGET_PRODUCT = "Szy_pvzHE_CheatsV12.2"

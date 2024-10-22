@@ -198,6 +198,8 @@ private slots:
 
     void on_checkBox_46_stateChanged(int arg1);
 
+    void on_pushButton_20_clicked();
+
 private:
     Ui::Widget *ui;
     bool wxyg{false};

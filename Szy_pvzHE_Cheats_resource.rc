@@ -3,8 +3,8 @@
 IDI_ICON1	ICON	DISCARDABLE	"D:\\Project\\Qt\\Szy_pvzHE_Cheats\\logo.ico"
 
 VS_VERSION_INFO VERSIONINFO
-	FILEVERSION 12,1,0,0
-	PRODUCTVERSION 12,1,0,0
+	FILEVERSION 12,2,0,0
+	PRODUCTVERSION 12,2,0,0
 	FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
 	FILEFLAGS VS_FF_DEBUG
@@ -21,11 +21,11 @@ VS_VERSION_INFO VERSIONINFO
 			BEGIN
 				VALUE "CompanyName", "\0"
 				VALUE "FileDescription", "\0"
-				VALUE "FileVersion", "12.1.0.0\0"
+				VALUE "FileVersion", "12.2.0.0\0"
 				VALUE "LegalCopyright", "Copyright 2018-2023 The Szy_1222.All rights reserved\0"
 				VALUE "OriginalFilename", "Szy_pvzHE_Cheats.exe\0"
-				VALUE "ProductName", "Szy_pvzHE_CheatsV12.1\0"
-				VALUE "ProductVersion", "12.1.0.0\0"
+				VALUE "ProductName", "Szy_pvzHE_CheatsV12.2\0"
+				VALUE "ProductVersion", "12.2.0.0\0"
 			END
 		END
 		BLOCK "VarFileInfo"

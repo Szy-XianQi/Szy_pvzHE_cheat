@@ -170,6 +170,7 @@ public:
     QPushButton *pushButton_18;
     QLabel *label_27;
     QLineEdit *lineEdit_15;
+    QPushButton *pushButton_20;
     QLabel *label_4;
     QLabel *label_13;
     QPushButton *pushButton_19;
@@ -2181,7 +2182,7 @@ public:
         lineEdit_11->setStyleSheet(QString::fromUtf8("font: 12pt \"Microsoft YaHei UI\";"));
         groupBox_11 = new QGroupBox(tab);
         groupBox_11->setObjectName(QString::fromUtf8("groupBox_11"));
-        groupBox_11->setGeometry(QRect(440, 320, 271, 131));
+        groupBox_11->setGeometry(QRect(380, 320, 271, 131));
         groupBox_11->setStyleSheet(QString::fromUtf8("font: 10pt \"Microsoft YaHei UI\";"));
         lineEdit_14 = new QLineEdit(groupBox_11);
         lineEdit_14->setObjectName(QString::fromUtf8("lineEdit_14"));
@@ -2203,6 +2204,10 @@ public:
         lineEdit_15->setObjectName(QString::fromUtf8("lineEdit_15"));
         lineEdit_15->setGeometry(QRect(210, 40, 31, 31));
         lineEdit_15->setStyleSheet(QString::fromUtf8("font: 12pt \"Microsoft YaHei UI\";"));
+        pushButton_20 = new QPushButton(tab);
+        pushButton_20->setObjectName(QString::fromUtf8("pushButton_20"));
+        pushButton_20->setGeometry(QRect(660, 350, 91, 91));
+        pushButton_20->setStyleSheet(QString::fromUtf8("font: 14pt \"Microsoft YaHei UI\";"));
         tabWidget->addTab(tab, QString());
         label_4 = new QLabel(Widget);
         label_4->setObjectName(QString::fromUtf8("label_4"));
@@ -2238,7 +2243,7 @@ public:
 
     void retranslateUi(QWidget *Widget)
     {
-        Widget->setWindowTitle(QApplication::translate("Widget", "\346\244\215\347\211\251\345\244\247\346\210\230\345\203\265\345\260\270\346\235\202\344\272\244\347\211\210\344\277\256\346\224\271\345\231\250 V12.1 (\351\203\250\345\210\206\345\212\237\350\203\275\351\274\240\346\240\207\346\202\254\346\265\256\346\230\276\347\244\272\346\217\220\347\244\272)", nullptr));
+        Widget->setWindowTitle(QApplication::translate("Widget", "\346\244\215\347\211\251\345\244\247\346\210\230\345\203\265\345\260\270\346\235\202\344\272\244\347\211\210\344\277\256\346\224\271\345\231\250 V12.2 (\351\203\250\345\210\206\345\212\237\350\203\275\351\274\240\346\240\207\346\202\254\346\265\256\346\230\276\347\244\272\346\217\220\347\244\272)", nullptr));
         label->setText(QApplication::translate("Widget", "\346\234\252\345\217\221\347\216\260\346\270\270\346\210\217\350\277\233\347\250\213", nullptr));
         checkBox_7->setText(QApplication::translate("Widget", "\345\220\216\345\217\260\350\277\220\350\241\214", nullptr));
         checkBox_13->setText(QApplication::translate("Widget", "\346\227\240\350\247\206\350\277\267\351\233\276", nullptr));
@@ -3830,6 +3835,11 @@ public:
         pushButton_18->setText(QApplication::translate("Widget", "OK", nullptr));
         label_27->setText(QApplication::translate("Widget", "\345\210\227:", nullptr));
         lineEdit_15->setText(QApplication::translate("Widget", "1", nullptr));
+#ifndef QT_NO_TOOLTIP
+        pushButton_20->setToolTip(QApplication::translate("Widget", "<html><head/><body><p><span style=\" font-size:11pt;\">\347\240\270\347\275\220\345\255\220\357\274\214\346\210\221\346\230\257\345\203\265\345\260\270\357\274\214\350\277\267\344\275\240\346\270\270\346\210\217\357\274\214\344\270\244\351\235\242\345\244\271\345\207\273,\346\214\221\346\210\230\346\250\241\345\274\217</span></p></body></html>", nullptr));
+#endif // QT_NO_TOOLTIP
+        pushButton_20->setText(QApplication::translate("Widget", "\345\260\217\346\270\270\346\210\217\n"
+"\345\205\250\345\245\226\346\235\257", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("Widget", "\350\265\204\346\272\220\347\261\273\344\277\256\346\224\271", nullptr));
         label_4->setText(QApplication::translate("Widget", "<html><head/><body><p><a href=\"https://github.com/Szy-XianQi/Szy_pvzHE_cheat\"><span style=\" font-size:14pt; font-weight:700; text-decoration: underline; color:#007af4;font-family:SIMHEI\">GitHub</span></a></p></body></html>", nullptr));
         label_13->setText(QApplication::translate("Widget", "<html><head/><body><p><a href=\"https://space.bilibili.com/393283655\"><span style=\" font-size:14pt; font-weight:700; text-decoration: underline; color:#007af4;font-family:SIMHEI\">BiliBili</span></a></p></body></html>", nullptr));
